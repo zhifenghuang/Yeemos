@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yeemos.app.view.WarterMarkParentView
+        android:id="@+id/itemStrickerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.yeemos.app.view.WarterMarkParentView>
+
+
+    <com.yeemos.app.view.DrawView
+        android:id="@+id/itemDrawView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <com.yeemos.app.view.WarterMarkParentView
+        android:id="@+id/itemWarterMarkView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.yeemos.app.view.WarterMarkParentView>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/imgIconLy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp" >
+
+        <com.yeemos.app.view.RoundedImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imgIconLy">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testten9527"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@+id/tvPhotoDes"
+            android:textColor="@color/color_45_223_227"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:text="testten9527"
+            android:textSize="12sp"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@+id/tvPhotoDes"
+            android:textColor="@color/color_45_223_227"/>
+        <TextView
+            android:id="@+id/tvPhotoDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_m"
+            android:textColor="@color/color_142_153_168"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+    </RelativeLayout>

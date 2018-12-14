@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/reSetting"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/color_255_255_255"
+        android:paddingLeft="7dp">
+
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/blue_back"/>
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/MenuTextSize_20"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/logoAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/about_us_logo"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/reSetting"/>
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/logoAbout"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_88_89_91"/>
+    <TextView
+        android:id="@+id/officialsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/version"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_88_89_91"/>
+    <TextView
+        android:id="@+id/supportemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@+id/officialsite"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_88_89_91"/>
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/supportemail"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_187_187_187"/>
+</RelativeLayout>

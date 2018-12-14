@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectEmoViewType">
+        <attr name="select_emo_view_type">
+            <enum name="select_emo_for_camera" value="0" />
+            <enum name="select_emo_for_search" value="1" />
+            <enum name="select_topic_for_search" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ScaleImageButton">
+        <attr name="btnScale" format="float"/>
+        <attr name="widthPadding" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TourialView">
+        <attr name="triangleHeadDir" format="integer"/>
+        <attr name="triangleColor" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PostPopupView">
+        <attr name="popup_view_type">
+            <enum name="emo_popup_view_type" value="0" />
+            <enum name="privacy_popup_view_type" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ScaleLayout">
+        <attr name="width_height_scale" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="MenuEditProfileInputField">
+        <attr name="edit_title" format="reference" />
+        <attr name="edit_icon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerDotView">
+        <attr name="selectedPageDotColor" format="integer" />
+        <attr name="otherPageDotColor" format="integer" />
+        <attr name="totalPage" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewDragLayout">
+        <attr name="drag_layout_view_type">
+            <enum name="view_in_chat_list_fragment" value="0" />
+            <enum name="view_in_chat_fragment" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomListView">
+        <attr name="custom_listview_type">
+            <enum name="custom_listview_in_chat_list_fragment" value="0" />
+            <enum name="custom_listview_in_chat_fragment" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FocusImageView">
+        <attr name="focus_focusing_id" format="integer" />
+        <attr name="focus_success_id" format="integer" />
+        <attr name="focus_fail_id" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="max" format="integer"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ImageViewRatio">
+        <attr name="ratio" format="float" />
+    </declare-styleable>
+</resources>

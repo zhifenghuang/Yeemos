@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yemmos="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.yeemos.app.view.RoundedImageView
+            android:id="@+id/userAvater"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true" />
+
+
+        <TextView
+            android:id="@+id/tvEmoNum"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="9999"
+            android:textColor="@color/color_187_187_187"
+            android:textSize="14sp" />
+
+        <com.yeemos.app.view.ScaleImageButton
+            android:id="@+id/ivEmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/tvEmoNum"
+            android:src="@drawable/emo_angry"
+            yemmos:btnScale="0.45" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="6dp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_toLeftOf="@id/ivEmo"
+            android:layout_toRightOf="@id/userAvater"
+            android:text="Username"
+            android:textColor="@color/color_142_153_168"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/rl" />
+
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="252dp"
+    android:background="@android:color/transparent">
+
+
+    <com.yeemos.app.view.RoundedImageView
+        android:id="@+id/ivAvater"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivAvater"
+        android:layout_centerHorizontal="true"
+        android:text="sson773"
+        android:textColor="@color/color_88_89_91"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@+id/friendsProfileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivAvater"
+        android:layout_below="@id/tvUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <com.yeemos.app.view.FollowButton
+            android:id="@+id/btnFollow"
+            android:layout_width="106dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.6"></com.yeemos.app.view.FollowButton>
+
+        <ImageView
+            android:id="@+id/btnNotification"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="7dp"
+            android:scaleType="center"
+            android:src="@drawable/btn_notification_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myProfileLy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/followMeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/profile_followed"
+            android:gravity="center"
+            android:text="Followed Me"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/findUserBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/profile_find"
+            android:gravity="center"
+            android:text="Find User"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/myFriendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/profile_friend"
+            android:gravity="center"
+            android:text="My Friend"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <!--<TextView-->
+    <!--android:id="@+id/myProfileBtn"-->
+    <!--android:layout_width="140dp"-->
+    <!--android:layout_height="33dp"-->
+    <!--android:layout_below="@id/tvUserName"-->
+    <!--android:background="@drawable/roundrect_btn"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:textColor="@color/color_255_255_255"-->
+    <!--android:textSize="18sp"-->
+    <!--android:visibility="gone"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:text="FIND FRIEND"-->
+    <!--android:layout_marginTop="13dp"/>-->
+</RelativeLayout>

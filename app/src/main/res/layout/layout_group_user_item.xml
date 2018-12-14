@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_255_255_255">
+
+    <com.yeemos.app.view.RoundedImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/tickBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/tick_btn_selector" />
+
+    <RelativeLayout
+        android:id="@+id/tvContentLy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="17dp"
+        android:layout_toLeftOf="@+id/tickBtn"
+        android:layout_toRightOf="@+id/imgIcon">
+
+        <TextView
+            android:id="@+id/tvText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="Group Name"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="@dimen/MenuTextSize_17" />
+
+        <TextView
+            android:id="@+id/tvText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvText1"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="peopleCount"
+            android:textColor="@color/color_187_187_187"
+            android:textSize="@dimen/MenuTextSize_12" />
+    </RelativeLayout>
+</RelativeLayout>

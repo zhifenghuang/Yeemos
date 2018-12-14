@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/ViewWholeBg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/roundrect_white_bg">
+
+    <TextView
+        android:id="@+id/tvEmotion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="23dp"
+        android:text="Emotion"
+        android:textColor="@color/color_88_89_91"
+        android:textSize="18sp"/>
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/popup_grey_cross"
+        android:layout_marginTop="16dp"/>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/btnClose"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/color_170_170_170"/>
+
+    <com.yeemos.app.view.VerticalSwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_below="@id/line1">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#ffffff"
+            android:scrollbars="none"
+            android:divider="#00ffffff"
+            android:dividerHeight="0dp"
+            android:fadingEdgeLength="1dp"
+            android:listSelector="#00000000"/>
+    </com.yeemos.app.view.VerticalSwipeRefreshLayout>
+
+    <RelativeLayout
+        android:id="@+id/noFillLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line1"
+        android:visibility="gone"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/noFeelLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nofeel_log"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/noFeelText"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/noFeelLog"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_187_187_187"
+            android:textSize="17sp"
+            android:alpha="0.6"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

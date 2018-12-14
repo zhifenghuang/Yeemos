@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_255_255_255"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/friendGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_142_153_168"
+            android:textSize="@dimen/MenuTextSize_16"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/MenuTextSize_12"
+            android:text="Group" />
+
+        <TextView
+            android:id="@+id/createGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_45_223_227"
+            android:drawableLeft="@drawable/blue_add_icon_4x"
+            android:textSize="@dimen/MenuTextSize_16"
+            android:drawablePadding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:text="Create Group" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="7dp">
+
+        <RelativeLayout
+            android:id="@+id/imgView"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/friendGroupImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_group_icon_4x" />
+
+            <com.yeemos.app.view.RoundedImageView
+                android:id="@+id/imgIcon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/tickBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/tick_btn_selector"
+            android:layout_alignParentRight="true" />
+
+        <RelativeLayout
+            android:id="@+id/tvContentLy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgView"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tickBtn"
+            android:layout_marginLeft="17dp">
+
+            <TextView
+                android:id="@+id/tvText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="Group Name"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="@dimen/MenuTextSize_17" />
+
+            <TextView
+                android:id="@+id/tvText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvText1"
+                android:text="peopleCount"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textColor="@color/color_187_187_187"
+                android:textSize="@dimen/MenuTextSize_12" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/noData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/MenuTextSize_12"
+            android:visibility="gone"
+            android:textColor="@android:color/darker_gray" />
+    </RelativeLayout>
+</LinearLayout>

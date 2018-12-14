@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="GB0103201">用戶名只允許輸入英文字母，數字，下劃線，連字符和英文句號，長度必須為4至20個字符。</string>
+    <string name="GB0103203">你的電子郵件格式有誤，請重新輸入。</string>
+    <string name="GB0103204">你的電話號碼格式有誤，請重新輸入。</string>
+    <string name="GB0103205">你的電子郵件和電話號碼格式有誤，請重新輸入。</string>
+    <string name="GB0103209">密碼長度必須為4至20個字符。</string>
+    <string name="GB0103210">你的顯示名稱格式有誤，請重新輸入。</string>
+    <string name="GB0103212">密碼長度必須為4至20個字符。</string>
+    <string name="GB0103213">重置密碼郵件已過期，請重新獲取郵件后再試。</string>
+    <string name="GB0103250">第三方賬戶登錄時間已過期，請重新登錄。</string>
+    <string name="GB0103255">該第三方賬戶已經和其他Yeemos賬戶綁定。</string>
+    <string name="GB0103264">你的賬戶登錄時間已失效，為了賬戶安全請重新登錄。</string>
+    <string name="GB0105101">用戶名或電子郵件不存在。</string>
+    <string name="GB0105104">電子郵件/用戶名或密碼不正確。</string>
+    <string name="GB0105109">該用戶名已被使用。</string>
+    <string name="GB0105110">你的賬戶已在其他賬戶登錄，請重新登錄。如果不是本人操作，請注意保護賬戶安全。</string>
+    <string name="GB0105113">電子郵件/用戶名或者密碼輸入不正確</string>
+    <string name="GB0105120">該用戶名已被使用。</string>
+    <string name="GB0105121">該電子郵件已被使用。</string>
+    <string name="GB0105122">該電話號碼已被使用。</string>
+    <string name="GB0105144">沒有檢測到任何修改。</string>
+    <string name="GB0105153">你的賬戶沒有與任何電子郵件關聯，請使用你的第三方賬戶直接登錄。</string>
+    <string name="GB0105155">你的舊密碼輸入有誤，請重新輸入。</string>
+    <string name="GB0105156">你必須至少綁定一個第三方應用的賬戶或者前往設置中的“更改密碼”部分，創建密碼才可以正常登錄。</string>
+    <string name="GB0105158">服務器錯誤 (GB0105158)，請重新登錄。</string>
+    <string name="GB2411055">無法連接到服務器，請稍後再試。</string>
+    <string name="GB2411056">無法連接到服務器，請稍後再試。</string>
+    <string name="GB2411057">無法連接到服務器，請稍後再試。</string>
+    <string name="GB2411058">你賬戶的登錄時間已過期，為了賬戶安全請重新登錄。</string>
+    <string name="GB2411059">網絡請求超時，請重新再試一次。</string>
+    <string name="GB3303212">請打開你的GPS模塊以獲取附近餐廳的數據。</string>
+    <string name="GB3303213">用戶名只允許使用英文字母，數字，下劃線，連字符和英文句號，且長度必須為4至20個字符。</string>
+    <string name="GB3305102">找不到用戶。</string>
+    <string name="GB3305107">該發文已失效。</string>
+    <string name="GB3305109">無法加載此菜單</string>
+    <string name="GB3305113">你的賬戶由於某些原因已被封鎖。請你和我們取得聯繫以了解更多情況（聯繫郵箱：support＠yeemos.com），謝謝。</string>
+    <string name="GB3305118">找不到用戶。</string>
+    <string name="GB33305111">無法關注這位用戶。</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽主頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"顯示全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="abt_us_txt_copyright">Yeemos 版權所有</string>
+    <string name="abtus_txt_aboutus">關於我們</string>
+    <string name="abtus_txt_copyright">© 2016 Yeemos Co., Ltd. 版權所有</string>
+    <string name="abtus_txt_officialsite">www.yeemos.com</string>
+    <string name="abtus_txt_supportemail">support＠yeemos.com</string>
+    <string name="abtus_txt_version">版本 %s</string>
+    <string name="activty_txt_fbfriendonmenu">你的Facebook好友%1$s註冊了Yeemos，用戶名為%2$s。</string>
+    <string name="activty_txt_igfriendonmenu">你的Instagram好友%1$s註冊了Yeemos，用戶名為%2$s。</string>
+    <string name="actvty_btn_following">我關注的人</string>
+    <string name="actvty_btn_server">服務器</string>
+    <string name="actvty_btn_you">我</string>
+    <string name="actvty_ttl_activities">通知</string>
+    <string name="actvty_txt_acceptyourfollowrequest">%s 同意了你的關注請求。</string>
+    <string name="actvty_txt_leftcomment">%1$s評論了%2$s的菜色：。</string>
+    <string name="actvty_txt_leftcommentonyourphoto">%s 評論了你的帖文。</string>
+    <string name="actvty_txt_leftdrawingcomment">%s 塗鴉了你的帖文</string>
+    <string name="actvty_txt_likephoto">%1$s收藏了%2$s的菜色。</string>
+    <string name="actvty_txt_likeyourphoto">%s 感受了你的心情。</string>
+    <string name="actvty_txt_mentionyou">%s 提到了你。</string>
+    <string name="actvty_txt_moreanonyleftcommentonyourphoto">%s 人評論了你的貼文。</string>
+    <string name="actvty_txt_moreanonyleftdrawingcomment">%s 人塗鴉了你的貼文。</string>
+    <string name="actvty_txt_moreanonylikeyourphoto">%s 人感受了你的心情。</string>
+    <string name="actvty_txt_moreleftcommentonyourphoto">%1$s ， %2$s 和 %3$s 其他人評論了你的貼文。</string>
+    <string name="actvty_txt_moreleftdrawingcomment">%1$s ，%2$s 和其他 %3$s 位好友塗鴉了你的貼文</string>
+    <string name="actvty_txt_morelikeyourphoto">%1$s, %2$s 和 %3$s 位其他人感受了你的心情。</string>
+    <string name="actvty_txt_morestartfollowingyou">%1$s ，%2$s 和 %3$s 個其他人關注你了。</string>
+    <string name="actvty_txt_postphoto">%s 剛剛分享了新的貼文。</string>
+    <string name="actvty_txt_requestfollowyou">%s 請求關注你。</string>
+    <string name="actvty_txt_someoneleftcommentonyourphoto">某人評論了你的帖文。</string>
+    <string name="actvty_txt_someoneleftdrawingcomment">某人塗鴉了你的帖文</string>
+    <string name="actvty_txt_someonelikeyourphoto">某人感受了你的心情。</string>
+    <string name="actvty_txt_someonementionyou">某人提到了你。</string>
+    <string name="actvty_txt_someonepostphoto">某人剛剛分享了新的貼文。</string>
+    <string name="actvty_txt_startfollowing">%1$s關注了%2$s。</string>
+    <string name="actvty_txt_startfollowingyou">%s 關注你了。</string>
+    <string name="actvty_txt_threeleftcommentonyourphoto">%1$s ， %2$s 和 %3$s 評論了你的貼文。</string>
+    <string name="actvty_txt_threeleftdrawingcomment">%1$s ，%2$s 和%3$s 塗鴉了你的貼文</string>
+    <string name="actvty_txt_threelikeyourphoto">%1$s, %2$s 和 %3$s 感受了你的心情。</string>
+    <string name="actvty_txt_threestartfollowingyou">%1$s ，%2$s 和 %3$s 關注你了。</string>
+    <string name="actvty_txt_twoleftcommentonyourphoto">%1$s 和 %2$s 評論了你的貼文。</string>
+    <string name="actvty_txt_twoleftdrawingcomment">%1$s 和 %2$s 塗鴉了你的貼文</string>
+    <string name="actvty_txt_twolikeyourphoto">%1$s 和 %2$s 感受了你的心情。</string>
+    <string name="actvty_txt_twostartfollowingyou">%1$s 和 %2$s 關注你了。</string>
+    <string name="addbyaddrss_btn_invite">邀請</string>
+    <string name="addbyaddrss_btn_invited">已邀請</string>
+    <string name="addbyaddrss_ttl_addfromaddressbook">從聯絡人添加</string>
+    <string name="addbyaddrss_ttl_invitetoyeemos">邀請使用Yeemos</string>
+    <string name="addbyaddrss_txt_invitemessage">Hi，我的Yeemos用戶名是%s。加我為Yeemos好友吧。www.yeemos.com</string>
+    <string name="addbyaddrss_txt_nameornumber">通過名字或者電話號碼查找</string>
+    <string name="addbyfb_ttl_addfromfacebook">從Facebook添加</string>
+    <string name="addbyfb_txt_name">名字</string>
+    <string name="addbyusrnm_ttl_Addbyusername">通過用戶名添加</string>
+    <string name="addbyusrnm_txt_peopleseeyouas">其他人看到你的名字是</string>
+    <string name="addbyusrnm_txt_searchbyusername">通過用戶名搜索</string>
+    <string name="addbyusrnm_txt_yourusernameis">你的用戶名是</string>
+    <string name="blcklst_btn_remove">移除</string>
+    <string name="blcklst_ttl_blacklist">黑名單</string>
+    <string name="chng_psswrd_ttl_changepassword">更改密碼</string>
+    <string name="chng_psswrd_txt_currentpassword">舊密碼</string>
+    <string name="chng_psswrd_txt_newpassword">新密碼</string>
+    <string name="chng_psswrd_txt_newpasswordagain">請再次輸入新密碼</string>
+    <string name="chng_psswrd_txt_passwordchangedsuccessful">你的密碼已修改成功。</string>
+    <string name="chng_psswrd_txt_passwordchangedsuccessfully">你的密碼已被修改成功。</string>
+    <string name="chng_psswrd_txt_passwordempty">密碼長度應為4至20個字符。</string>
+    <string name="chng_psswrd_txt_passwordnotcorrect">你輸入的密碼不正確</string>
+    <string name="chng_psswrd_txt_passwordnotmatch">你輸入的密碼不匹配。</string>
+    <string name="chng_psswrd_txt_pwdnotmatch">新輸入的密碼不匹配</string>
+    <string name="chsfrnd_btn_creategroup">新建群組</string>
+    <string name="chsfrnd_btn_deletegroup">刪除該群組</string>
+    <string name="chsfrnd_btn_deselectall">取消全選</string>
+    <string name="chsfrnd_btn_selectall">全選</string>
+    <string name="chsfrnd_ttl_choosefriends">選擇想一起分享的好友</string>
+    <string name="chsfrnd_txt_friends">好友</string>
+    <string name="chsfrnd_txt_group">群組</string>
+    <string name="chsfrnd_txt_myfriend">我的好友</string>
+    <string name="chsfrnd_txt_nogroup">你尚未創建群組</string>
+    <string name="cht_btn_addfriends">添加好友</string>
+    <string name="cht_txt_disappear">圖片和文字消息會在已讀后24小時后被自動清除</string>
+    <string name="cht_txt_friendtookascreenshot">%1$s在聊天中截屏(%2$s)了</string>
+    <string name="cht_txt_friendunfollow">你的聊天消息將待%s添加你為好友后發出。</string>
+    <string name="cht_txt_me">我</string>
+    <string name="cht_txt_saved">保存成功</string>
+    <string name="cht_txt_texthere">在此處輸入</string>
+    <string name="cht_txt_typing">%s 正在輸入...</string>
+    <string name="cht_txt_unsaved">未保存</string>
+    <string name="cht_txt_youtookascreenshot">你在聊天中截屏(%s)了!</string>
+    <string name="chtlstandcntcts_btn_delete">刪除</string>
+    <string name="chtlstandcntcts_btn_deselectall">取消全選</string>
+    <string name="chtlstandcntcts_btn_edit">編輯</string>
+    <string name="chtlstandcntcts_btn_selectall">全選</string>
+    <string name="chtlstandcntcts_ttl_allfriends">所有好友</string>
+    <string name="chtlstandcntcts_ttl_chatlist">聊天</string>
+    <string name="chtlstandcntcts_ttl_recentchat">最近聊天</string>
+    <string name="chtlstandcntcts_txt_delivered">已發送 - </string>
+    <string name="chtlstandcntcts_txt_failed">發送失敗 - </string>
+    <string name="chtlstandcntcts_txt_meopened">已讀 - </string>
+    <string name="chtlstandcntcts_txt_opened">已讀 - </string>
+    <string name="chtlstandcntcts_txt_postlast6hours">好友最近的帖文</string>
+    <string name="chtlstandcntcts_txt_received">已接收 - </string>
+    <string name="chtlstandcntcts_txt_recentchat">最近聊天</string>
+    <string name="chtlstandcntcts_txt_sending">正在發送 - </string>
+    <string name="chtlstandcntcts_txt_swipeleft">往左劃</string>
+    <string name="chtlstandcntcts_txt_swipeleftortaptochat">點擊或者往左劃進行聊天</string>
+    <string name="chtlstandcntcts_txt_tap">點擊</string>
+    <string name="chtlstandcntcts_txt_taptoopen">點擊打開 - </string>
+    <string name="cm_btn_searchfriend">搜索你的好友</string>
+    <string name="cm_btn_skip">忽略</string>
+    <string name="cm_txt_feel">感覺</string>
+    <string name="cm_txt_searchfriend">歡迎來到Yeemos！\n\n讓社交感覺更好玩~\n\n趕緊去關注你的好友吧！</string>
+    <string name="cmmnt_btn_reply">回復</string>
+    <string name="cmmnt_btn_tryagain">重試</string>
+    <string name="cmmnt_ttl_comment">評論</string>
+    <string name="cmmnt_txt_nocomment">還沒有評論，趕緊來說點什麼吧</string>
+    <string name="cmmnt_txt_saysomething">輸入你的評論</string>
+    <string name="cmmnt_txt_saysthanonymous">您的留言也會以匿名呈現</string>
+    <string name="cmr_txt_chattofriend">點這裡和好友聊天</string>
+    <string name="cmr_txt_longpress">長按</string>
+    <string name="cmr_txt_recordvideo">長按拍攝視頻</string>
+    <string name="cmr_txt_scroll">滑動</string>
+    <string name="cmr_txt_selectemotion">滑動選擇心情，</string>
+    <string name="cmr_txt_selectphotoorvideo">從相冊選擇照片或者視頻</string>
+    <string name="cmr_txt_tap">點擊</string>
+    <string name="cmr_txt_taptotakephoto">點擊拍照,</string>
+    <string name="cmr_txt_yourprofile">個人檔案，設置和通知消息都在這裡</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">前往&lt;b>facebook.com/device&lt;/b&amp;gt，並輸入上方顯示的代碼。</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">下載圖像時發生沒有預期的錯誤。</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView 登入需要網絡使用權限</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest 錯誤</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">已讚好</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">讚好</string>
+    <string gender="unknown" name="com_facebook_loading">載入中......</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">取消</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">登入</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">繼續使用 Facebook 帳戶</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">使用 Facebook 登入</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">登出</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">登出</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">以%1$s身分登入</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">已使用 Facebook 登入</string>
+    <string gender="unknown" name="com_facebook_send_button_text">送出</string>
+    <string gender="unknown" name="com_facebook_share_button_text">分享</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">若要連結帳戶，請在流動裝置上開啟 Facebook 應用程式，然後查看通知。</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- 或 -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">不是你嗎？</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">以%1$s的身分繼續</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">確認登入</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">一切由你掌握：自行選擇要分享給應用程式的資訊種類。</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"啟用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，方可執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安裝"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的裝置尚未安裝 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"安裝 Google Play 服務"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play 服務的適用範圍"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play 服務錯誤"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」存取 Google Play 服務時發生問題。請稍後再試一次。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的裝置不支援 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必須更新「Google Play 服務」，才能執行 <ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服務"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"正在更新 Google Play 服務，更新完成後方可執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"需要使用新版本的 Google Play 服務。更新會即將自動開始。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手機開啟"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登入"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"透過 Google 登入"</string>
+    <string name="crt_a_usrnm_ttl_igsignup">註冊（Instagram）</string>
+    <string name="crt_a_usrnm_ttl_signup">註冊</string>
+    <string name="crt_a_usrnm_txt_createausername">創建一個用戶名</string>
+    <string name="crt_a_usrnm_txt_email">電子郵件</string>
+    <string name="crt_a_usrnm_txt_password">密碼</string>
+    <string name="cstmvw_ttl_customviewtitle">可以看到此貼文的好友</string>
+    <string name="ddl_btn_hide">隱藏</string>
+    <string name="ddl_btn_hideall">隱藏所有</string>
+    <string name="ddl_btn_show">顯示</string>
+    <string name="ddl_btn_showall">顯示所有</string>
+    <string name="ddl_ttl_Doodle">塗鴉</string>
+    <string name="drwngcmmnt_btn_doodle">塗鴉 (%s)</string>
+    <string name="drwngcmmnt_btn_submit">提交</string>
+    <string name="drwngcmmnt_txt_abandon">確定要放棄你的塗鴉嗎？</string>
+    <string name="drwngcmmnt_txt_doodleforfriend">只有好友才能塗鴉</string>
+    <string name="drwngcmmnt_txt_doodleyouwant">點擊這裡開始塗鴉</string>
+    <string name="drwngcmmnt_txt_seewhodoodled">看看大家的塗鴉</string>
+    <string name="drwngcmmnt_txt_submitfail">提交失败，请稍后再试。</string>
+    <string name="drwngcmmnt_txt_submitsuccess">提交成功</string>
+    <string name="edtprfl_btn_female">女</string>
+    <string name="edtprfl_btn_male">男</string>
+    <string name="edtprfl_btn_notspecified">未註明</string>
+    <string name="edtprfl_ttl_done">完成</string>
+    <string name="edtprfl_ttl_editprofile">編輯個人資料</string>
+    <string name="edtprfl_ttl_privateinformation">個人信息</string>
+    <string name="edtprfl_txt_basicinformation">基本信息</string>
+    <string name="edtprfl_txt_bio">個性簽名</string>
+    <string name="edtprfl_txt_displayname">显示名字</string>
+    <string name="edtprfl_txt_email">电子郵件</string>
+    <string name="edtprfl_txt_emailaccountchanged">你的Yeemos賬戶的電子郵件地址已被修改</string>
+    <string name="edtprfl_txt_emailaccountchangedcontent">請注意你Yeemos的電子郵件地址已被改成{0}</string>
+    <string name="edtprfl_txt_phone">電話號碼</string>
+    <string name="edtprfl_txt_sex">性別</string>
+    <string name="edtprfl_txt_username">用戶名</string>
+    <string name="edtprfl_txt_website">網站</string>
+    <string name="edtpst_btn_custom">自定義</string>
+    <string name="edtpst_btn_enablelocation">開啟定位</string>
+    <string name="edtpst_btn_friendonly">只限朋友</string>
+    <string name="edtpst_btn_public">公開</string>
+    <string name="edtpst_btn_share">分享</string>
+    <string name="edtpst_btn_strangeronly">只限陌生人</string>
+    <string name="edtpst_txt_24hrsorlastforever">24小時有效或者永久有效</string>
+    <string name="edtpst_txt_am">上午</string>
+    <string name="edtpst_txt_hashtagortag">添加話題或者標記某人</string>
+    <string name="edtpst_txt_loadingfilter">正在加載濾鏡</string>
+    <string name="edtpst_txt_month1">一月</string>
+    <string name="edtpst_txt_month10">十月</string>
+    <string name="edtpst_txt_month11">十一月</string>
+    <string name="edtpst_txt_month12">十二月</string>
+    <string name="edtpst_txt_month2">二月</string>
+    <string name="edtpst_txt_month3">三月</string>
+    <string name="edtpst_txt_month4">四月</string>
+    <string name="edtpst_txt_month5">五月</string>
+    <string name="edtpst_txt_month6">六月</string>
+    <string name="edtpst_txt_month7">七月</string>
+    <string name="edtpst_txt_month8">八月</string>
+    <string name="edtpst_txt_month9">九月</string>
+    <string name="edtpst_txt_pm">下午</string>
+    <string name="edtpst_txt_presstoshare">準備好了？點擊這裡馬上分享！</string>
+    <string name="edtpst_txt_setanonymous">把貼文設為匿名</string>
+    <string name="edtpst_txt_titletagmentionfriend">輸入＠好友或者你去過的#地點或者你感興趣的#主題</string>
+    <string name="edtpst_txt_unlockfilter">想使用更多濾鏡？</string>
+    <string name="edtpst_txt_unlockfilterdes">開啟定位可以使用更多有趣的濾鏡！</string>
+    <string name="edtpst_txt_weekday1">星期一</string>
+    <string name="edtpst_txt_weekday2">星期二</string>
+    <string name="edtpst_txt_weekday3">星期三</string>
+    <string name="edtpst_txt_weekday4">星期四</string>
+    <string name="edtpst_txt_weekday5">星期五</string>
+    <string name="edtpst_txt_weekday6">星期六</string>
+    <string name="edtpst_txt_weekday7">星期日</string>
+    <string name="eml_txt_emailaccountchanged">你的Yeemos賬戶的電子郵件已修改成功</string>
+    <string name="eml_txt_emailaccountchangedcontent">請注意你的Yeemos賬戶的電子郵件已被更改為{0}。</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"其他"</string>
+    <string name="fllwd_btn_request">請求關注我</string>
+    <string name="fllwd_ttl_followed">關注我</string>
+    <string name="fndusr_btn_addbyfacebook">通過Facebook添加</string>
+    <string name="fndusr_btn_addbyinstagram">通過Instagram添加</string>
+    <string name="fndusr_btn_addbyusername">通過用戶名添加</string>
+    <string name="fndusr_btn_addfromaddressbook">通過聯絡簿添加</string>
+    <string name="fndusr_ttl_finduser">新增朋友</string>
+    <string name="fndusr_txt_recommendeduser">推薦用戶</string>
+    <string name="fndusr_txt_tap">點擊</string>
+    <string name="fndusr_txt_taptofollow">點擊可關注</string>
+    <string name="frndprfl_txt_nopost">還沒有發佈任何帖文或者所發貼文都已經過期</string>
+    <string name="frndprfl_txt_usernotvalid">此用戶無效。</string>
+    <string name="hlp_ttl_help">幫助</string>
+    <string name="hlp_txt_contact">如果你需要任何幫助，請聯繫support＠yeemos.com</string>
+    <string name="hlp_txt_email">support＠yeemos.com</string>
+    <string name="hm_btn_previous">回憶</string>
+    <string name="hm_btn_search">搜尋 熱門主題/找朋友</string>
+    <string name="hm_btn_uploadagain">重新上傳</string>
+    <string name="hm_txt_explore">探索</string>
+    <string name="hm_txt_featuring">主題</string>
+    <string name="hm_txt_foreverpost">永久的回憶</string>
+    <string name="hm_txt_hottopics">根據熱門話題分類的貼文</string>
+    <string name="hm_txt_nofeaturepost">還沒有貼文</string>
+    <string name="hm_txt_nopost">還沒有人分享這個心情，第一個去分享吧！</string>
+    <string name="hm_txt_postsfromothers">根據心情分類的貼文</string>
+    <string name="hm_txt_postsfromyourfollowings">24小時之內的貼文</string>
+    <string name="hm_txt_recent">最新動態</string>
+    <string name="intl_btn_createaccount">註冊新賬戶</string>
+    <string name="intl_btn_login">馬上登錄</string>
+    <string name="intl_btn_loginfb">Facebook</string>
+    <string name="intl_btn_loginig">通過Instagram登錄</string>
+    <string name="intl_btn_signin">已有賬戶？馬上登錄</string>
+    <string name="intl_txt_anonymoussocialnetwork">匿名社交平台</string>
+    <string name="intl_txt_doodlewithfriends">與好友一起塗鴉</string>
+    <string name="intl_txt_expressyourself">使用心情</string>
+    <string name="intl_txt_gourmet">你的美食相冊</string>
+    <string name="intl_txt_loginwith">使用以下賬戶登錄</string>
+    <string name="intl_txt_newwaytointeract">與好友的全新互動方式
+\n在他們的故事上塗鴉!</string>
+    <string name="intl_txt_shareyourstore">與好友或者所有人\n分享你的故事\n或者甚至與陌生人</string>
+    <string name="intl_txt_stayanonymous">選擇匿名\n...或者公開，由你來決定!</string>
+    <string name="intl_txt_withemotion">表達你自己!</string>
+    <string name="lgn_btn_forgotpassword">忘記密碼？</string>
+    <string name="lgn_btn_login">登錄</string>
+    <string name="lgn_ttl_login">登錄</string>
+    <string name="lgn_txt_email">用戶名或電子郵件</string>
+    <string name="lgn_txt_emailorpasswordincorrect">电子郵件/用戶名或者密碼不正確。</string>
+    <string name="lgn_txt_password">密碼</string>
+    <string name="lgn_txt_pleaseenteremailorusername">請輸入用戶名或電子郵件</string>
+    <string name="likd_sttngs_btn_unlink">解除綁定</string>
+    <string name="likd_sttngs_ttl_linkedsettings">綁定賬戶</string>
+    <string name="likd_sttngs_txt_cannotunlink">你必須至少綁定一個第三方應用的賬戶或者前往設置中的“更改密碼”部分，創建密碼才可以正常登錄。</string>
+    <string name="likd_sttngs_txt_facebook">Facebook 名稱</string>
+    <string name="likd_sttngs_txt_instagram">Instagram 名稱</string>
+    <string name="likd_sttngs_txt_twitter">Twitter</string>
+    <string name="mssg_block_confirmblock">你確定要封鎖此用戶嗎？你將不會再看到關於此用戶的任何信息。</string>
+    <string name="mssg_removefriend_confirm">你確定移除這位好友嗎？所有相關的聊天記錄將會被刪除。</string>
+    <string name="myfrnd_ttl_myfriend">我的好友</string>
+    <string name="ntfctn_btn_close">關閉</string>
+    <string name="ntfctn_btn_fromeveryone">所有人</string>
+    <string name="ntfctn_btn_fromfriend">朋友</string>
+    <string name="ntfctn_btn_frompeopleifollow">我關注的人</string>
+    <string name="ntfctn_btn_off">關閉</string>
+    <string name="ntfctn_btn_open">打開</string>
+    <string name="ntfctn_ttl_notifications">通知</string>
+    <string name="ntfctn_txt_acceptedfollowrequests">同意關注請求</string>
+    <string name="ntfctn_txt_comment">評論</string>
+    <string name="ntfctn_txt_followrequests">關注者請求</string>
+    <string name="ntfctn_txt_friendsonmenu">好友加入</string>
+    <string name="ntfctn_txt_igfriendsonmenu">關注者加入</string>
+    <string name="ntfctn_txt_igusernameonmenu">你的Instagram好友{0}註冊了Yeemos，用戶名為{1}。</string>
+    <string name="ntfctn_txt_johnlikedyourphoto">{0}感受了你的心情。</string>
+    <string name="ntfctn_txt_likes">贊</string>
+    <string name="ntfctn_txt_messagenotification">消息通知</string>
+    <string name="ntfctn_txt_usercommentcontent">{0}評論了你的帖文</string>
+    <string name="ntfctn_txt_userdrawingcomment">{0} 塗鴉了你的帖文</string>
+    <string name="ntfctn_txt_usermentioncontent">{0}提到了你</string>
+    <string name="ntfctn_txt_usernameacceptedyourfollowrequests">{0} 同意了你的關注請求。</string>
+    <string name="ntfctn_txt_usernameonmenu">你的Facebook好友{0}註冊了Yeemos，用戶名為{1}。</string>
+    <string name="ntfctn_txt_usernamepostedaphoto">{0}覺得...</string>
+    <string name="ntfctn_txt_usernamestartedfollow">{0}關注了你。</string>
+    <string name="ntfctn_txt_userrequeststofollowyou">{0}請求關注你。</string>
+    <string name="ntfctn_txtonpg_igusernameonmenu">你的Instagram好友John註冊了Yeemos，用戶名為JohnYee。</string>
+    <string name="ntfctn_txtonpg_johncommented">John評論了你的帖文\nJohn提到了你</string>
+    <string name="ntfctn_txtonpg_johnlikedyourphoto">John 感受了你的心情。</string>
+    <string name="ntfctn_txtonpg_johnsentyoumessage">John發了一條消息給你。</string>
+    <string name="ntfctn_txtonpg_usernameacceptedyourfollowrequests">John通過了你的關注請求。</string>
+    <string name="ntfctn_txtonpg_usernameonmenu">你的Facebook/Instagram好友John註冊了菜牌，用戶名為Johnfoodie。</string>
+    <string name="ntfctn_txtonpg_userrequeststofollowyou">John請求關注你。</string>
+    <string name="nwedtgrp_ttl_editgroup">編輯群組</string>
+    <string name="nwedtgrp_ttl_newgroup">新建群組</string>
+    <string name="nwedtgrp_txt_entergroupname">請在此處輸入群名字</string>
+    <string name="nwedtgrp_txt_groupname">編輯名字</string>
+    <string name="nwedtgrp_txt_myfriend">我的好友</string>
+    <string name="nwedtgrp_txt_samegroupexist">你所選的好友與現有群組“%s”的好友完全相同</string>
+    <string name="nwedtgrp_txt_samegroupname">該群組名字已經存在，請重新輸入。</string>
+    <string name="pblc_btn_abuse">濫用</string>
+    <string name="pblc_btn_block">封鎖該用戶</string>
+    <string name="pblc_btn_blockforanonymouspost">封鎖</string>
+    <string name="pblc_btn_blockpost">封鎖該貼文</string>
+    <string name="pblc_btn_cancel">取消</string>
+    <string name="pblc_btn_commercialspam">商業廣告</string>
+    <string name="pblc_btn_delete">刪除</string>
+    <string name="pblc_btn_done">完成</string>
+    <string name="pblc_btn_edit">編輯</string>
+    <string name="pblc_btn_editname">編輯名字</string>
+    <string name="pblc_btn_finish">完成</string>
+    <string name="pblc_btn_follow">關注</string>
+    <string name="pblc_btn_following">已關注</string>
+    <string name="pblc_btn_igotit">我知道了</string>
+    <string name="pblc_btn_next">繼續</string>
+    <string name="pblc_btn_no">否</string>
+    <string name="pblc_btn_notificationoff">發佈通知關閉</string>
+    <string name="pblc_btn_notificationon">發佈通知打開</string>
+    <string name="pblc_btn_offensive">冒犯</string>
+    <string name="pblc_btn_ok">確定</string>
+    <string name="pblc_btn_porn">色情</string>
+    <string name="pblc_btn_reload">重新加載</string>
+    <string name="pblc_btn_removefriend">移除好友</string>
+    <string name="pblc_btn_rename">確定</string>
+    <string name="pblc_btn_report">舉報</string>
+    <string name="pblc_btn_requested">已請求</string>
+    <string name="pblc_btn_scam">詐騙</string>
+    <string name="pblc_btn_send">發送</string>
+    <string name="pblc_btn_sharetofb">分享至Facebook</string>
+    <string name="pblc_btn_sharetoig">分享至Instagram</string>
+    <string name="pblc_btn_unfollow">取消關注</string>
+    <string name="pblc_btn_yes">是</string>
+    <string name="pblc_err_nogallery">該功能需要訪問設備相冊，請允許后再試。</string>
+    <string name="pblc_err_noinstagram">該功能需要先安裝Instagram，請安裝后再試。</string>
+    <string name="pblc_ttl_customrename">自定義名字</string>
+    <string name="pblc_txt_accountdeletedtheme">賬戶被刪除的通知</string>
+    <string name="pblc_txt_accountfrozentheme">賬戶被凍結的通知</string>
+    <string name="pblc_txt_accountunfrozen">賬戶已解除凍結的通知</string>
+    <string name="pblc_txt_admin">管理員</string>
+    <string name="pblc_txt_anonymity">匿名</string>
+    <string name="pblc_txt_areyousure">確定繼續？</string>
+    <string name="pblc_txt_autoloadfailed">加載數據失敗，請檢查網絡連接后再試。</string>
+    <string name="pblc_txt_blocksuccessful">該用戶已被加入黑名單。</string>
+    <string name="pblc_txt_cancelled">取消发送</string>
+    <string name="pblc_txt_couldnotloadpage">無法加載頁面。
+\n
+\n請單擊頁面重試。</string>
+    <string name="pblc_txt_daysago">%s天前</string>
+    <string name="pblc_txt_editedsuccessful">編輯成功</string>
+    <string name="pblc_txt_email">support＠yeemos.com</string>
+    <string name="pblc_txt_exporting">正在導出</string>
+    <string name="pblc_txt_finishingup">即將完成</string>
+    <string name="pblc_txt_firsttimetouseanonymous">😊友善提醒：用戶上傳內容若違反使用者服務條例，將被Yeemos官方停權。</string>
+    <string name="pblc_txt_hoursago">%s小時前</string>
+    <string name="pblc_txt_me"> (自己)</string>
+    <string name="pblc_txt_minutesago">%s分鐘前</string>
+    <string name="pblc_txt_nofb">此功能要求你的設備安裝Facebook應用</string>
+    <string name="pblc_txt_nointernet">無網絡連接</string>
+    <string name="pblc_txt_noresult">沒有結果</string>
+    <string name="pblc_txt_postloadfail">加載貼文失敗，請檢查設備的網絡連接然後再試一次。</string>
+    <string name="pblc_txt_postnotavailable">該發文已經無效。</string>
+    <string name="pblc_txt_postnotificationon">你已對此用戶打開貼文推送通知。</string>
+    <string name="pblc_txt_ready">預備發送</string>
+    <string name="pblc_txt_reportsuccess">你的舉報已提交成功。我們會檢查你舉報的內容。感謝你的舉報。</string>
+    <string name="pblc_txt_saved">保存成功</string>
+    <string name="pblc_txt_saving">正在保存</string>
+    <string name="pblc_txt_search">搜尋 熱門主題/找朋友</string>
+    <string name="pblc_txt_secondsago">%s秒前</string>
+    <string name="pblc_txt_sending">正在發送</string>
+    <string name="pblc_txt_sent">已發送</string>
+    <string name="pblc_txt_sharedsuccessful">分享成功</string>
+    <string name="pblc_txt_texthere">在這裡輸入文字...</string>
+    <string name="pblc_txt_unfollowuser">不再關注該用戶？</string>
+    <string name="pblc_txt_videofailed">加載視頻文件失敗，請再試一次。</string>
+    <string name="pblc_txt_weeksago">%s星期前</string>
+    <string name="pblc_txt_whyreport">為什麼要舉報？</string>
+    <string name="pf_txt_acceptrequest">{0} 同意了你的關注請求</string>
+    <string name="pf_txt_comment">{0} 給你留了評論</string>
+    <string name="pf_txt_commentanonymous">某人給你留了評論</string>
+    <string name="pf_txt_drawingcommentanonymous">某人塗鴉了你的帖文</string>
+    <string name="pf_txt_felt">{0} 感受了你的心情</string>
+    <string name="pf_txt_feltanonymous">某人感受了你的心情</string>
+    <string name="pf_txt_followingyou">{0} 關注了你</string>
+    <string name="pf_txt_mentionyou">{0} 提到了你</string>
+    <string name="pf_txt_mentionyouanonymous">某人提到了你</string>
+    <string name="pf_txt_newpost">{0} 覺得...</string>
+    <string name="pf_txt_newpostanonymous">某人發佈了新內容</string>
+    <string name="pf_txt_nulltyping">你的好友正在打字...</string>
+    <string name="pf_txt_receivemessage">{0} 發了一條消息給你。</string>
+    <string name="pf_txt_receivemessagefromnull">你的好友發了一條消息給你。</string>
+    <string name="pf_txt_requesttofollow">{0} 請求關注你</string>
+    <string name="pf_txt_tookscreenshot">{0}在聊天中截屏了！</string>
+    <string name="pf_txt_typing">{0} 正在打字...</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"清除搜尋"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"搜尋"</string>
+    <string name="pllrct_ttl_feel">心情</string>
+    <string name="pllrct_txt_nofeel">還沒有心情</string>
+    <string name="prfl_btn_changeavatar">修改頭像</string>
+    <string name="prfl_btn_findfriend">新增朋友</string>
+    <string name="prfl_btn_followedme">關注我</string>
+    <string name="prfl_btn_myfriend">我的好友</string>
+    <string name="prvcy_ttl_privacy">私有政策</string>
+    <string name="pst_txt_previous">回憶</string>
+    <string name="pst_vw_txt_doodleforfun">好玩的塗鴉在這裡！</string>
+    <string name="pst_vw_txt_feelthepost">點擊或者往左劃看下一個帖文</string>
+    <string name="pst_vw_txt_selectemotion">長按選擇不同心情</string>
+    <string name="pst_vw_txt_swipeleft">往左劃</string>
+    <string name="pst_vw_txt_tapanywhere">點擊</string>
+    <string name="pstvw_txt_sentmessage">%s 給你發送了一條新消息</string>
+    <string name="pub_btn_abuse">濫用</string>
+    <string name="pub_btn_commercialspam">商業廣告</string>
+    <string name="pub_btn_nor_later">以後</string>
+    <string name="pub_btn_nor_updatenow">馬上更新</string>
+    <string name="pub_btn_offensive">冒犯</string>
+    <string name="pub_btn_ok">確定</string>
+    <string name="pub_btn_porn">色情</string>
+    <string name="pub_btn_scam">詐騙</string>
+    <string name="pub_err_deleteaccount">尊敬的用戶，\n\n你好，你的賬戶由於某些原因已被清除。請你和我們聯繫以了解更多情況（聯繫郵箱：support＠yeemos.com），謝謝。</string>
+    <string name="pub_err_freezeaccount">尊敬的用戶，\n\n你好，你的賬戶由於某些原因已被暫停使用。請你和我們取得聯繫以了解更多情況（聯繫郵箱：support＠yeemos.com），謝謝。</string>
+    <string name="pub_err_nointernet">無網絡連接，請檢查網絡連接后再試。</string>
+    <string name="pub_err_unfreezeaccount">尊敬的用戶，
+\n
+\n你的賬戶已被解除凍結，感謝你的合作，歡迎繼續使用。</string>
+    <string name="pub_txt_backendversion">1.1.5</string>
+    <string name="pub_txt_newversioncontent">有新版本可更新，請至App Store更新後繼續使用。</string>
+    <string name="pub_txt_newversioncontentandroid">發現新版本，必須更新後才能繼續使用。</string>
+    <string name="pub_txt_newversioncontentnormal">在App Store有新版本可更新</string>
+    <string name="pub_txt_newversiontitle">新版本</string>
+    <string name="pub_txt_nocameraaccess">使用你的相機拍攝照片，短視頻等等需要使用相機權限。請在系統設置中允許后繼續。</string>
+    <string name="pub_txt_nocontactsaccess">為了把你的聯絡人上傳到Yeemos的伺服器，以便你和其他人可以找到好友，並且改善你的使用體驗。請在系統設置中允許后繼續。</string>
+    <string name="pub_txt_nogalleryaccess">從相機膠卷選擇照片或視頻，保存你拍攝的照片或者視頻到你的相機膠卷，在聊天時傳送照片等需要使用相機膠卷權限。請在系統設置中允許后繼續。</string>
+    <string name="pub_txt_nolocationaccess">開啟位置可以使用更多有趣的濾鏡和在首頁中看到更多主題。</string>
+    <string name="pub_txt_nomicrophone">錄製短視頻的聲音時需要使用麥克風權限。請在系統設置中允許后繼續。</string>
+    <string name="pub_txt_noreadwrite">繼續下一步需要獲得設備內部/外部存儲卡的讀寫權限。請在系統設置中允許后繼續。</string>
+    <string name="pub_txt_nosms">繼續下一步需要使用短信權限。請在系統設置中允許后繼續。</string>
+    <string name="pub_txt_suretodelete">確定要刪除嗎?</string>
+    <string name="pub_txt_uploading">正在上傳</string>
+    <string name="pub_txt_uploadingfailed">上傳失敗</string>
+    <string name="pub_txt_usecamera">Yeemos需要使用相機以拍攝照片，短視頻等等。</string>
+    <string name="pub_txt_whatsnew">發現新版本可更新。</string>
+    <string name="pub_unknownerror">服務器出錯，請稍後再試。</string>
+    <string name="rqst_ttl_request">請求關注我</string>
+    <string name="rst_psswrd_eandu_btn_search">搜索</string>
+    <string name="rst_psswrd_eandu_ttl_resetpassword">重置密碼</string>
+    <string name="rst_psswrd_eandu_txt_emailsent">重置密碼郵件已發送。請查看你的註冊郵箱。</string>
+    <string name="rst_psswrd_eandu_txt_findyouraccount">找回你的賬戶</string>
+    <string name="rst_psswrd_eandu_txt_findyouraccountcontent">請在輸入框中輸入你的用戶名和电子郵件地址</string>
+    <string name="rst_psswrd_eandu_txt_usernameoremail">用戶名或者电子郵件</string>
+    <string name="rst_psswrd_usngFB_notassociatewithemail">你的賬戶沒有與任何电子郵件關聯，請使用你的第三方賬戶直接登錄。</string>
+    <string name="rst_psswrd_usngFB_txt_passwordsnotmatch">兩次輸入的密碼不匹配。</string>
+    <string name="rst_psswrd_usngfb_btn_reset">重置</string>
+    <string name="rst_psswrd_usngfb_ttl_resetpassword">重置密碼</string>
+    <string name="rst_psswrd_usngfb_txt_content">歡迎回來 %s!</string>
+    <string name="rst_psswrd_usngfb_txt_inputtwice">請輸入兩次新密碼進行重置</string>
+    <string name="rst_psswrd_usngfb_txt_newpassword">新的密碼</string>
+    <string name="rst_psswrd_usngfb_txt_newpasswordagain">請再次輸入新密碼</string>
+    <string name="rst_psswrd_usngfb_txt_username">%s</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string name="sgn_up_btn_alreadyhaveaccount">已有賬戶？直接登錄</string>
+    <string name="sgn_up_err_email">請輸入規範的email格式</string>
+    <string name="sgn_up_err_password">密碼長度必須為4至20個字符。</string>
+    <string name="sgn_up_err_username">用戶名只允許英文字母，数字，英文下劃線和英文句點。長度為4至20個字符。</string>
+    <string name="sgn_up_ttl_signup">註冊</string>
+    <string name="sgn_up_txt_and">和</string>
+    <string name="sgn_up_txt_communityguidelines">社區準則</string>
+    <string name="sgn_up_txt_createusername">用戶名</string>
+    <string name="sgn_up_txt_email">电子郵件</string>
+    <string name="sgn_up_txt_password">密碼</string>
+    <string name="sgn_up_txt_privacypolicy">私有政策</string>
+    <string name="sgn_up_txt_requireditems">必填項目</string>
+    <string name="sgn_up_txt_subject">歡迎使用Yeemos！</string>
+    <string name="sgn_up_txt_termsofservice">服務條款</string>
+    <string name="sgn_up_txt_welcomecontent">你好 {0}，歡迎使用Yeemos！</string>
+    <string name="sgn_up_txt_youagreetothe">你必須同意服務條款，私有政策和社區準則。</string>
+    <string name="sgninhlp_btn_resetusingfb">Facebook</string>
+    <string name="sgninhlp_btn_resetusingig">Instagram</string>
+    <string name="sgninhlp_btn_usernameoremail">用戶名或電子郵件</string>
+    <string name="sgninhlp_ttl_resetyourpassword">重置你的密碼</string>
+    <string name="sgninhlp_ttl_signinhelp">登錄幫助</string>
+    <string name="sgninhlp_txt_emailchanged">你的Yeemos密碼已被修改</string>
+    <string name="sgninhlp_txt_emailchangedcontent">你好。\n\n你的Yeemos賬戶{0}的密碼已被成功修改，請使用新密碼進行登錄。如果你沒有執行此操作，為了確保你的賬戶安全，請通過support＠yeemos.com联系我们。</string>
+    <string name="sgninhlp_txt_forgotpassword">忘記密碼？</string>
+    <string name="sgninhlp_txt_howreset">重置你的密碼</string>
+    <string name="sgninhlp_txt_ignotlinkedemail">你的Instagram賬戶沒有和任何电子郵件賬戶綁定。</string>
+    <string name="sgninhlp_txt_notlinkedemail">你的Facebook賬戶沒有和任何电子郵件賬戶綁定。</string>
+    <string name="sgninhlp_txt_resetemailcontent">你好，我們收到你重置Yeemos密碼的請求。請點擊這裡進行重置。如果你不理會此消息，你的密碼將不會被更改。</string>
+    <string name="shrs_ttl_shares">分享列表</string>
+    <string name="slctcntry_ttl_selectcountry">選擇電話號碼所屬地</string>
+    <string name="slctpht_btn_changfolder">點擊這裡切換相冊</string>
+    <string name="slctphtorvd_btn_changefolder">點擊這裡切換文件夾</string>
+    <string name="slctphtorvd_txt_videonotvalid">此視頻無法加載。</string>
+    <string name="srchid_btn_people">找人</string>
+    <string name="srchtag_btn_tags">熱門話題</string>
+    <string name="srchtag_txt_posts">帖文</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999 +"</string>
+    <string name="sttngs_btn_aboutus">關於我們</string>
+    <string name="sttngs_btn_blacklist">黑名單</string>
+    <string name="sttngs_btn_changepassword">更改密碼</string>
+    <string name="sttngs_btn_clearcache">清除緩存</string>
+    <string name="sttngs_btn_communityguidelines">社區準則</string>
+    <string name="sttngs_btn_contactus">聯絡我們</string>
+    <string name="sttngs_btn_editprofile">編輯個人資料</string>
+    <string name="sttngs_btn_findpeople">找朋友</string>
+    <string name="sttngs_btn_help">幫助</string>
+    <string name="sttngs_btn_language">語言</string>
+    <string name="sttngs_btn_linkedaccounts">綁定賬戶</string>
+    <string name="sttngs_btn_logout">登出</string>
+    <string name="sttngs_btn_notificationset">推送設置</string>
+    <string name="sttngs_btn_notificationsound">通知提示音</string>
+    <string name="sttngs_btn_privacypolicy">隱私政策</string>
+    <string name="sttngs_btn_privateaccount">隱私賬戶</string>
+    <string name="sttngs_btn_privatefollowlist">隱私關注列表</string>
+    <string name="sttngs_btn_saveoriginal">保存原圖</string>
+    <string name="sttngs_btn_terms">條款</string>
+    <string name="sttngs_ttl_settings">設置</string>
+    <string name="sttngs_txt_account">關於賬戶</string>
+    <string name="sttngs_txt_clearcachefinish">緩存已被清除成功</string>
+    <string name="sttngs_txt_clearcachetext">確定要清除緩存嗎？</string>
+    <string name="sttngs_txt_function">功能設定</string>
+    <string name="sttngs_txt_privateaccountexplain">當開啟隱私賬戶時，只有經過你同意的人可以看到你發佈的帖文。已經關注你的人不受該設定影響。</string>
+    <string name="sttngs_txt_privatefollowlistexplain">當你的關注列表被設為隱私時，其他人不能查看你的粉絲和關注列表</string>
+    <string name="sttngs_txt_yeemos">YEEMOS</string>
+    <string name="tgfrnd_ttl_tagafriend">提到好友</string>
+    <string name="tgfrnd_txt_searchforfriend">找好友</string>
+    <string name="trms_ttl_terms">服務條款</string>
+    <string name="usrprfl_btn_block">封鎖</string>
+    <string name="usrprfl_btn_editname">編輯名字</string>
+    <string name="usrprfl_btn_editprofile">編輯個人資料</string>
+    <string name="usrprfl_btn_follower">粉絲</string>
+    <string name="usrprfl_btn_following">關注</string>
+    <string name="usrprfl_btn_notificationoff">關閉發佈通知</string>
+    <string name="usrprfl_btn_notificationon">打開發佈通知</string>
+    <string name="usrprfl_btn_posts">分享</string>
+    <string name="vrfyphn_ttl_verifyphone">驗證電話號碼</string>
+    <string name="vrfyphn_txt_country">國家</string>
+    <string name="vrfyphn_txt_number">電話號碼</string>
+    <string name="vws_ttl_views">觀看</string>
+    <string name="vws_txt_noview">還沒有人觀看</string>
+</resources>

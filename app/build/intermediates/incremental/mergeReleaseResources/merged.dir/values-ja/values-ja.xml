@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="GB0103201">ユーザー名は英字、数字、アンダースコア、ハイフン、ピリオドのみを許可します。 4〜20文字にする必要があります。</string>
+    <string name="GB0103203">あなたのメールアドレスは無効です。</string>
+    <string name="GB0103204">電話番号が無効です。もう一度入力してください。</string>
+    <string name="GB0103205">あなたのメールアドレスと電話番号は無効です。</string>
+    <string name="GB0103209">パスワードの長さは4〜20文字です。</string>
+    <string name="GB0103210">表示名が無効です。</string>
+    <string name="GB0103212">パスワードの長さは4〜20文字です。</string>
+    <string name="GB0103213">このリンクは既に有効期限切れです。続行するには、戻って新しいリンクを取得する必要があります。</string>
+    <string name="GB0103250">第三者アカウントのログイン時間が切れました。もう一度ログインしてください。</string>
+    <string name="GB0103255">この第三者のアカウントは、別のYeemosアカウントに関連付けられています。</string>
+    <string name="GB0103264">あなたのアカウントはしばらくの間ログインしており、あなたのセッションは期限切れです。 あなたのセキュリティのために、再度ログインしてください。</string>
+    <string name="GB0105101">ユーザー名または電子メールは存在しません。</string>
+    <string name="GB0105104">電子メール/ユーザー名またはパスワードが間違っています。</string>
+    <string name="GB0105109">ユーザー名は既に使用されています。</string>
+    <string name="GB0105110">あなたのアカウントは他のデバイスにログインしています。もう一度ログインして、アカウントのセキュリティを確認してください。</string>
+    <string name="GB0105113">電子メール/ユーザー名またはパスワードが間違っています。</string>
+    <string name="GB0105120">ユーザー名は既に使用されています。</string>
+    <string name="GB0105121">このメールは既に使用されています。</string>
+    <string name="GB0105122">この電話番号は既に使用されています。</string>
+    <string name="GB0105144">変更は行われていません。</string>
+    <string name="GB0105153">あなたのアカウントはどのメールにも関連付けられていません。第三者のアカウントを使用して直接ログインしてください。</string>
+    <string name="GB0105155">古いパスワードが間違って入力されました。</string>
+    <string name="GB0105156">パスワードを作成するには、少なくとも1つのソーシャルアカウントが接続されているか、または「パスワードの変更」に移動している必要があります。</string>
+    <string name="GB0105158">サーバーエラー（GB0105158）。もう一度ログインしてください。</string>
+    <string name="GB2411055">サーバーに接続できません。後でもう一度お試しください。</string>
+    <string name="GB2411056">サーバーに接続できません。後でもう一度お試しください。</string>
+    <string name="GB2411057">サーバーに接続できません。後でもう一度お試しください。</string>
+    <string name="GB2411058">あなたのアカウントはしばらくの間ログインしており、あなたのセッションは期限切れです。あなたのセキュリティのために、再度ログインしてください。</string>
+    <string name="GB2411059">ネットワーク接続を確認して、もう一度お試しください。</string>
+    <string name="GB3303212">レストランの詳細を取得するには、GPSモジュールをオンにしてください。</string>
+    <string name="GB3303213">ユーザー名は英字、数字、アンダースコア、ハイフン、ピリオドのみを許可します。 4〜20文字にする必要があります。</string>
+    <string name="GB3305102">ユーザーが見つかりません。</string>
+    <string name="GB3305107">この投稿は無効です。</string>
+    <string name="GB3305109">メニューを読み込めませんでした</string>
+    <string name="GB3305113">何らかの理由でアカウントがブロックされています。アカウントを通常使用するには、詳細についてお問い合わせください（メール：support＠yeemos.com）。ありがとうございました。</string>
+    <string name="GB3305118">ユーザーが見つかりません。</string>
+    <string name="GB33305111">このユーザーにフォローできません。</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="abt_us_txt_copyright">Yeemosすべての権利予約。</string>
+    <string name="abtus_txt_aboutus">私たちに関しては</string>
+    <string name="abtus_txt_copyright">©2016 Yeemos Co.、Ltd.無断複写・転載を禁じます。</string>
+    <string name="abtus_txt_officialsite">www.yeemos.com</string>
+    <string name="abtus_txt_supportemail">support＠yeemos.com</string>
+    <string name="abtus_txt_version">バージョン %s</string>
+    <string name="activty_txt_fbfriendonmenu">あなたのFacebookの友達%1$sは%2$sとしてYeemosにあります。</string>
+    <string name="activty_txt_igfriendonmenu">Instagramの友人%1$sは%2$sとしてYeemosにあります。</string>
+    <string name="actvty_btn_following">以下</string>
+    <string name="actvty_btn_server">サーバ</string>
+    <string name="actvty_btn_you">君は</string>
+    <string name="actvty_ttl_activities">アクティビティ</string>
+    <string name="actvty_txt_acceptyourfollowrequest">%sはあなたのフォローリクエストを受け入れました。</string>
+    <string name="actvty_txt_leftcomment">%1$sは%2$sの料理に関するコメントを残しました：</string>
+    <string name="actvty_txt_leftcommentonyourphoto">%sあなたの投稿にコメントを残しました。</string>
+    <string name="actvty_txt_leftdrawingcomment">%sあなたの投稿に落書きしました。</string>
+    <string name="actvty_txt_likephoto">%1$s回収した%2$sの料理。</string>
+    <string name="actvty_txt_likeyourphoto">%sあなたの投稿を感じました。</string>
+    <string name="actvty_txt_mentionyou">%sがあなたに言及しました。</string>
+    <string name="actvty_txt_moreanonyleftcommentonyourphoto">%s人があなたの投稿にコメントを残しました。</string>
+    <string name="actvty_txt_moreanonyleftdrawingcomment">%s人があなたの投稿に落書きしました。</string>
+    <string name="actvty_txt_moreanonylikeyourphoto">%s人はあなたの投稿を感じました。</string>
+    <string name="actvty_txt_moreleftcommentonyourphoto">%1$s、%2$s、%3$s他はあなたの投稿にコメントを残しました。</string>
+    <string name="actvty_txt_moreleftdrawingcomment">%1$s、%2$s、他はあなたの投稿に落書きしました。</string>
+    <string name="actvty_txt_morelikeyourphoto">%1$s、%2$s、%3$s他はあなたの投稿を感じました。</string>
+    <string name="actvty_txt_morestartfollowingyou">%1$s、%2$s、%3$s他があなたに続いて始めました。</string>
+    <string name="actvty_txt_postphoto">%sは新しい投稿を共有しました。</string>
+    <string name="actvty_txt_requestfollowyou">%sあなたにフォローしてください。</string>
+    <string name="actvty_txt_someoneleftcommentonyourphoto">誰かがあなたの投稿にコメントを残しました。</string>
+    <string name="actvty_txt_someoneleftdrawingcomment">誰かがあなたの投稿に落書きしました</string>
+    <string name="actvty_txt_someonelikeyourphoto">誰かがあなたの投稿を感じた</string>
+    <string name="actvty_txt_someonementionyou">誰かがあなたに言及しました。</string>
+    <string name="actvty_txt_someonepostphoto">誰かが新しい投稿を共有しました。</string>
+    <string name="actvty_txt_startfollowing">%1$sは%2$sの後に開始されました。</string>
+    <string name="actvty_txt_startfollowingyou">%s あなたをフォロー始めました。</string>
+    <string name="actvty_txt_threeleftcommentonyourphoto">%1$s、%2$s、%3$sは投稿のコメントを残します。</string>
+    <string name="actvty_txt_threeleftdrawingcomment">あなたの投稿に%1$s、%2$s、%3$s doodled。</string>
+    <string name="actvty_txt_threelikeyourphoto">%1$s、%2$s、%3$sはあなたの投稿を感じました。</string>
+    <string name="actvty_txt_threestartfollowingyou">%1$s、%2$s、%3$sはあなたに続いて始まりました。</string>
+    <string name="actvty_txt_twoleftcommentonyourphoto">%1$sと%2$sはあなたの投稿のコメントを残します。</string>
+    <string name="actvty_txt_twoleftdrawingcomment">%1$s和%2$s塗輪了你的付着文</string>
+    <string name="actvty_txt_twolikeyourphoto">%1$sと%2$sはあなたの投稿を感じました。</string>
+    <string name="actvty_txt_twostartfollowingyou">%1$sと%2$sはあなたに続いて始まりました。</string>
+    <string name="addbyaddrss_btn_invite">招待</string>
+    <string name="addbyaddrss_btn_invited">招待された</string>
+    <string name="addbyaddrss_ttl_addfromaddressbook">アドレス帳から追加する</string>
+    <string name="addbyaddrss_ttl_invitetoyeemos">Yeemosに招待</string>
+    <string name="addbyaddrss_txt_invitemessage">こんにちは、私のYeemosユーザー名は%sです。私をYeemosの友人として追加してください。 www.yeemos.com</string>
+    <string name="addbyaddrss_txt_nameornumber">名前または電話番号</string>
+    <string name="addbyfb_ttl_addfromfacebook">Facebookから追加</string>
+    <string name="addbyfb_txt_name">名</string>
+    <string name="addbyusrnm_ttl_Addbyusername">ユーザー名で追加</string>
+    <string name="addbyusrnm_txt_peopleseeyouas">人々はあなたを次のように見ます</string>
+    <string name="addbyusrnm_txt_searchbyusername">ユーザー名で検索</string>
+    <string name="addbyusrnm_txt_yourusernameis">あなたのユーザー名は</string>
+    <string name="blcklst_btn_remove">削除する</string>
+    <string name="blcklst_ttl_blacklist">ブラックリスト</string>
+    <string name="chng_psswrd_ttl_changepassword">パスワードを変更する</string>
+    <string name="chng_psswrd_txt_currentpassword">現在のパスワード</string>
+    <string name="chng_psswrd_txt_newpassword">新しいパスワード</string>
+    <string name="chng_psswrd_txt_newpasswordagain">新しいパスワードを再入力</string>
+    <string name="chng_psswrd_txt_passwordchangedsuccessful">パスワードが正常に変更されました。</string>
+    <string name="chng_psswrd_txt_passwordchangedsuccessfully">パスワードが正常に変更されました。</string>
+    <string name="chng_psswrd_txt_passwordempty">パスワードの長さは4〜20文字です。</string>
+    <string name="chng_psswrd_txt_passwordnotcorrect">パスワードが正しく入力されていません。</string>
+    <string name="chng_psswrd_txt_passwordnotmatch">パスワードが一致しません。</string>
+    <string name="chng_psswrd_txt_pwdnotmatch">パスワードが一致していません。</string>
+    <string name="chsfrnd_btn_creategroup">グループを作る</string>
+    <string name="chsfrnd_btn_deletegroup">このグループを削除する</string>
+    <string name="chsfrnd_btn_deselectall">すべての選択を解除</string>
+    <string name="chsfrnd_btn_selectall">すべて選択</string>
+    <string name="chsfrnd_ttl_choosefriends">あなたが共有したい友達を選択してください</string>
+    <string name="chsfrnd_txt_friends">友人</string>
+    <string name="chsfrnd_txt_group">グループ</string>
+    <string name="chsfrnd_txt_myfriend">私の友人</string>
+    <string name="chsfrnd_txt_nogroup">まだグループを作成していません</string>
+    <string name="cht_btn_addfriends">友達に追加する</string>
+    <string name="cht_txt_disappear">写真やテキストメッセージは、一度読んだら24時間後に消えてしまいます</string>
+    <string name="cht_txt_friendtookascreenshot">%1$sはチャットのスクリーンショットを撮った！(%2$s)</string>
+    <string name="cht_txt_friendunfollow">あなたのチャットは%sが友達としてあなたを追加するまで保留されます。</string>
+    <string name="cht_txt_me">私</string>
+    <string name="cht_txt_saved">保存された</string>
+    <string name="cht_txt_texthere">ここにテキスト</string>
+    <string name="cht_txt_typing">%s 打ち込んでいる...</string>
+    <string name="cht_txt_unsaved">未保存</string>
+    <string name="cht_txt_youtookascreenshot">あなたはチャットのスクリーンショットを撮った！（%s）</string>
+    <string name="chtlstandcntcts_btn_delete">削除</string>
+    <string name="chtlstandcntcts_btn_deselectall">すべての選択を解除</string>
+    <string name="chtlstandcntcts_btn_edit">編集</string>
+    <string name="chtlstandcntcts_btn_selectall">すべて選択</string>
+    <string name="chtlstandcntcts_ttl_allfriends">友達みんな</string>
+    <string name="chtlstandcntcts_ttl_chatlist">チャット</string>
+    <string name="chtlstandcntcts_ttl_recentchat">最近のチャット</string>
+    <string name="chtlstandcntcts_txt_delivered">配信済み -</string>
+    <string name="chtlstandcntcts_txt_failed">失敗 -</string>
+    <string name="chtlstandcntcts_txt_meopened">開かれた -</string>
+    <string name="chtlstandcntcts_txt_opened">読み取り -</string>
+    <string name="chtlstandcntcts_txt_postlast6hours">友人の最近の投稿</string>
+    <string name="chtlstandcntcts_txt_received">受信 -</string>
+    <string name="chtlstandcntcts_txt_recentchat">最近のチャット</string>
+    <string name="chtlstandcntcts_txt_sending">送信 -</string>
+    <string name="chtlstandcntcts_txt_swipeleft">左スワイプ</string>
+    <string name="chtlstandcntcts_txt_swipeleftortaptochat">クリックするか左にスワイプしてチャット</string>
+    <string name="chtlstandcntcts_txt_tap">タップ</string>
+    <string name="chtlstandcntcts_txt_taptoopen">タップして開く -</string>
+    <string name="cm_btn_searchfriend">あなたの友達を検索</string>
+    <string name="cm_btn_skip">スキップ</string>
+    <string name="cm_txt_feel">感情</string>
+    <string name="cm_txt_searchfriend">イェモスへようこそ！\n\nあなた自身を表現し、社会的であることを感じてみましょう〜\n\nさあ、あなたの友人のうち、どれがエイモスを使っているのかを確認してみましょう。</string>
+    <string name="cmmnt_btn_reply">応答</string>
+    <string name="cmmnt_btn_tryagain">再試行する</string>
+    <string name="cmmnt_ttl_comment">コメント</string>
+    <string name="cmmnt_txt_nocomment">コメントはまだありません。コメントする最初の人になります</string>
+    <string name="cmmnt_txt_saysomething">ここに何か言いなさい</string>
+    <string name="cmmnt_txt_saysthanonymous">あなたのコメントはここで匿名で表示されます</string>
+    <string name="cmr_txt_chattofriend">ここの友達とチャット</string>
+    <string name="cmr_txt_longpress">長押し</string>
+    <string name="cmr_txt_recordvideo">ビデオを撮るために長押し</string>
+    <string name="cmr_txt_scroll">スクロール</string>
+    <string name="cmr_txt_selectemotion">スクロールして自分の気持ちを選択し、</string>
+    <string name="cmr_txt_selectphotoorvideo">ギャラリーから写真やビデオを選択</string>
+    <string name="cmr_txt_tap">タップ</string>
+    <string name="cmr_txt_taptotakephoto">写真を撮るためのタップ、</string>
+    <string name="cmr_txt_yourprofile">プロフィール、設定、通知はすべてここにあります</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b>にアクセスして、上のコードを入力してください。</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">画像のダウンロードで何らかのエラーが発生しました。</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebViewにログインするには、インターネットへのアクセスが必要です</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifestエラー</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">「いいね！」しました</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">いいね！</string>
+    <string gender="unknown" name="com_facebook_loading">読み込み中です…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">キャンセル</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">ログイン</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebookでログイン</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Facebookでログイン</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">ログアウト</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">ログアウト</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">%1$sとしてログイン中</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Facebookでログイン中</string>
+    <string gender="unknown" name="com_facebook_send_button_text">送信</string>
+    <string gender="unknown" name="com_facebook_share_button_text">シェアする</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">アカウントをリンクするには、モバイル機器でFacebookアプリを開いて、お知らせをご確認ください。</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- または -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">別のアカウントでログイン</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">%1$sとしてログイン</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">ログインを実行</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">アプリと共有する情報をコントロールすることができます。</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"有効にする"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play開発者サービスの有効化"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"インストール"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」の実行には Google Play 開発者サービスが必要ですが、お使いの端末にはインストールされていません。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play開発者サービスの入手"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play 開発者サービスの利用"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」の実行には Google Play 開発者サービスが必要ですが、お使いの端末ではサポートされていません。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスの更新が必要です。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play開発者サービスの更新"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"スマートフォンで開く"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleにログイン"</string>
+    <string name="crt_a_usrnm_ttl_igsignup">サインアップ（Instagram）</string>
+    <string name="crt_a_usrnm_ttl_signup">サインアップ</string>
+    <string name="crt_a_usrnm_txt_createausername">ユーザー名を作成する</string>
+    <string name="crt_a_usrnm_txt_email">Eメール</string>
+    <string name="crt_a_usrnm_txt_password">パスワード</string>
+    <string name="cstmvw_ttl_customviewtitle">この投稿を見ることができる友達</string>
+    <string name="ddl_btn_hide">隠す</string>
+    <string name="ddl_btn_hideall">すべてを隠す</string>
+    <string name="ddl_btn_show">ショー</string>
+    <string name="ddl_btn_showall">すべて表示する</string>
+    <string name="ddl_ttl_Doodle">いたずら書き</string>
+    <string name="drwngcmmnt_btn_doodle">落書き (%s)</string>
+    <string name="drwngcmmnt_btn_submit">提出する</string>
+    <string name="drwngcmmnt_txt_abandon">あなたの落書きを放棄してもよろしいですか？</string>
+    <string name="drwngcmmnt_txt_doodleforfriend">友達だけが落書きできます</string>
+    <string name="drwngcmmnt_txt_doodleyouwant">あなたが欲しいものは何でも落書き！</string>
+    <string name="drwngcmmnt_txt_seewhodoodled">誰が落書きしたのか見てみよう！</string>
+    <string name="drwngcmmnt_txt_submitfail">送信に失敗しました。後でもう一度お試しください。</string>
+    <string name="drwngcmmnt_txt_submitsuccess">成功した送信</string>
+    <string name="edtprfl_btn_female">女性</string>
+    <string name="edtprfl_btn_male">男性</string>
+    <string name="edtprfl_btn_notspecified">指定されていない</string>
+    <string name="edtprfl_ttl_done">完了</string>
+    <string name="edtprfl_ttl_editprofile">プロファイル編集</string>
+    <string name="edtprfl_ttl_privateinformation">プライベート情報</string>
+    <string name="edtprfl_txt_basicinformation">基本情報</string>
+    <string name="edtprfl_txt_bio">バイオ</string>
+    <string name="edtprfl_txt_displayname">表示名</string>
+    <string name="edtprfl_txt_email">Eメール</string>
+    <string name="edtprfl_txt_emailaccountchanged">あなたのYeemosアカウントのメールが変更されました</string>
+    <string name="edtprfl_txt_emailaccountchangedcontent">あなたのYeemosアカウントのメールが{0}に変更されました</string>
+    <string name="edtprfl_txt_phone">電話番号</string>
+    <string name="edtprfl_txt_sex">セックス</string>
+    <string name="edtprfl_txt_username">ユーザー名</string>
+    <string name="edtprfl_txt_website">ウェブサイト</string>
+    <string name="edtpst_btn_custom">カスタム</string>
+    <string name="edtpst_btn_enablelocation">場所を有効にする</string>
+    <string name="edtpst_btn_friendonly">友達のみ</string>
+    <string name="edtpst_btn_public">パブリック</string>
+    <string name="edtpst_btn_share">シェア</string>
+    <string name="edtpst_btn_strangeronly">見知らぬ人のみ</string>
+    <string name="edtpst_txt_24hrsorlastforever">24時間または永遠に保つ</string>
+    <string name="edtpst_txt_am">朝</string>
+    <string name="edtpst_txt_hashtagortag">ハッシュタグを追加するか、誰かにタグを付ける</string>
+    <string name="edtpst_txt_loadingfilter">フィルタを読み込んでいます...</string>
+    <string name="edtpst_txt_month1">1月</string>
+    <string name="edtpst_txt_month10">10月</string>
+    <string name="edtpst_txt_month11">11月</string>
+    <string name="edtpst_txt_month12">12月</string>
+    <string name="edtpst_txt_month2">2月</string>
+    <string name="edtpst_txt_month3">3月</string>
+    <string name="edtpst_txt_month4">4月</string>
+    <string name="edtpst_txt_month5">5月</string>
+    <string name="edtpst_txt_month6">6月</string>
+    <string name="edtpst_txt_month7">7月</string>
+    <string name="edtpst_txt_month8">8月</string>
+    <string name="edtpst_txt_month9">9月</string>
+    <string name="edtpst_txt_pm">午後</string>
+    <string name="edtpst_txt_presstoshare">準備？共有するにはここをクリック！</string>
+    <string name="edtpst_txt_setanonymous">投稿を匿名にする</string>
+    <string name="edtpst_txt_titletagmentionfriend">タグ＠Friendまたは#placesあなたに興味のある訪問と＃トピック</string>
+    <string name="edtpst_txt_unlockfilter">より多くのフィルタのロックを解除しますか？</string>
+    <string name="edtpst_txt_unlockfilterdes">場所を有効にしてさらに楽しいフィルタを表示する</string>
+    <string name="edtpst_txt_weekday1">月曜</string>
+    <string name="edtpst_txt_weekday2">火曜日</string>
+    <string name="edtpst_txt_weekday3">水曜日</string>
+    <string name="edtpst_txt_weekday4">木曜日</string>
+    <string name="edtpst_txt_weekday5">金曜日</string>
+    <string name="edtpst_txt_weekday6">土曜日</string>
+    <string name="edtpst_txt_weekday7">日曜日</string>
+    <string name="eml_txt_emailaccountchanged">Yeemosアカウントの電子メールが変更されました</string>
+    <string name="eml_txt_emailaccountchangedcontent">あなたのYeemosアカウントのメールが{0}に変更されていることにご注意ください。</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"その他"</string>
+    <string name="fllwd_btn_request">要求</string>
+    <string name="fllwd_ttl_followed">続かれた</string>
+    <string name="fndusr_btn_addbyfacebook">Facebookで追加</string>
+    <string name="fndusr_btn_addbyinstagram">Instagramによる追加</string>
+    <string name="fndusr_btn_addbyusername">ユーザー名で追加</string>
+    <string name="fndusr_btn_addfromaddressbook">アドレス帳から追加する</string>
+    <string name="fndusr_ttl_finduser">ユーザーを探す</string>
+    <string name="fndusr_txt_recommendeduser">推奨ユーザー</string>
+    <string name="fndusr_txt_tap">タップ</string>
+    <string name="fndusr_txt_taptofollow">クリックしてフォローする</string>
+    <string name="frndprfl_txt_nopost">まだ投稿されていない投稿やすべての投稿が期限切れです</string>
+    <string name="frndprfl_txt_usernotvalid">このユーザーは無効です。</string>
+    <string name="hlp_ttl_help">助けて</string>
+    <string name="hlp_txt_contact">助けが必要な場合はsupport＠yeemos.comまでご連絡ください。</string>
+    <string name="hlp_txt_email">support＠yeemos.com</string>
+    <string name="hm_btn_previous">メモリアル</string>
+    <string name="hm_btn_search">フレンズ/＃ハッシュタグを検索する</string>
+    <string name="hm_btn_uploadagain">もう一度アップロードする</string>
+    <string name="hm_txt_explore">発見</string>
+    <string name="hm_txt_featuring">特集</string>
+    <string name="hm_txt_foreverpost">永遠に続く記憶</string>
+    <string name="hm_txt_hottopics">投稿トピックのソート</string>
+    <string name="hm_txt_nofeaturepost">投稿はまだありません</string>
+    <string name="hm_txt_nopost">まだ誰もこの感情を共有していません。 この感情に最初に参加してください！</string>
+    <string name="hm_txt_postsfromothers">感情ごとの投稿</string>
+    <string name="hm_txt_postsfromyourfollowings">過去24時間以内の投稿</string>
+    <string name="hm_txt_recent">ストーリー</string>
+    <string name="intl_btn_createaccount">サインアップ</string>
+    <string name="intl_btn_login">ログイン</string>
+    <string name="intl_btn_loginfb">フェイスブック</string>
+    <string name="intl_btn_loginig">Instagramによるログイン</string>
+    <string name="intl_btn_signin">すでにアカウントをお持ちですか？ログイン</string>
+    <string name="intl_txt_anonymoussocialnetwork">匿名ソーシャルネットワーク</string>
+    <string name="intl_txt_doodlewithfriends">友だちとのデートル</string>
+    <string name="intl_txt_expressyourself">自分を表現</string>
+    <string name="intl_txt_gourmet">あなたのグルメコレクション</string>
+    <string name="intl_txt_loginwith">- でログイン -</string>
+    <string name="intl_txt_newwaytointeract">友達と交流する新しい方法\n彼らの物語を描く！</string>
+    <string name="intl_txt_shareyourstore">あなたの話を分かち合う\n友人の間で、みんな\nまたは見知らぬ人だけでも </string>
+    <string name="intl_txt_stayanonymous">匿名\n...かどうか、あなたの選択！</string>
+    <string name="intl_txt_withemotion">感情で！</string>
+    <string name="lgn_btn_forgotpassword">パスワードをお忘れですか？</string>
+    <string name="lgn_btn_login">ログイン</string>
+    <string name="lgn_ttl_login">ログイン</string>
+    <string name="lgn_txt_email">メールアドレスまたはユーザ名</string>
+    <string name="lgn_txt_emailorpasswordincorrect">電子メール/ユーザー名またはパスワードが間違っています。</string>
+    <string name="lgn_txt_password">パスワード</string>
+    <string name="lgn_txt_pleaseenteremailorusername">ユーザー名またはメールアドレスを入力してください</string>
+    <string name="likd_sttngs_btn_unlink">リンク解除</string>
+    <string name="likd_sttngs_ttl_linkedsettings">リンクされたアカウント</string>
+    <string name="likd_sttngs_txt_cannotunlink">パスワードを作成するには、少なくとも1つのソーシャルアカウントが接続されているか、または「パスワードの変更」に移動している必要があります。</string>
+    <string name="likd_sttngs_txt_facebook">Facebookの名前</string>
+    <string name="likd_sttngs_txt_instagram">Instagramの名前</string>
+    <string name="likd_sttngs_txt_twitter">Twitter</string>
+    <string name="mssg_block_confirmblock">このユーザーをブロックしてもよろしいですか？あなたはもうYeemosに関する彼/彼女の情報のすべてを見ることはありません。</string>
+    <string name="mssg_removefriend_confirm">この友達を削除してもよろしいですか？すべてのチャット履歴が削除されます。</string>
+    <string name="myfrnd_ttl_myfriend">私の友人</string>
+    <string name="ntfctn_btn_close">閉じる</string>
+    <string name="ntfctn_btn_fromeveryone">みんなから</string>
+    <string name="ntfctn_btn_fromfriend">友達から</string>
+    <string name="ntfctn_btn_frompeopleifollow">私が従うすべての人から</string>
+    <string name="ntfctn_btn_off">オフ</string>
+    <string name="ntfctn_btn_open">開いた</string>
+    <string name="ntfctn_ttl_notifications">通知</string>
+    <string name="ntfctn_txt_acceptedfollowrequests">次の要求を受け入れる</string>
+    <string name="ntfctn_txt_comment">コメント</string>
+    <string name="ntfctn_txt_followrequests">フォローリクエスト</string>
+    <string name="ntfctn_txt_friendsonmenu">友人のメニュー</string>
+    <string name="ntfctn_txt_igfriendsonmenu">メニューの表示</string>
+    <string name="ntfctn_txt_igusernameonmenu">あなたのInstagramの友人{0}は{1}としてYeemosにいます。</string>
+    <string name="ntfctn_txt_johnlikedyourphoto">{0}あなたの投稿を感じました。</string>
+    <string name="ntfctn_txt_likes">ライズ</string>
+    <string name="ntfctn_txt_messagenotification">メッセージ通知</string>
+    <string name="ntfctn_txt_usercommentcontent">{0}あなたの投稿にコメントしました</string>
+    <string name="ntfctn_txt_userdrawingcomment">{0}はあなたのポストに落書きしました。</string>
+    <string name="ntfctn_txt_usermentioncontent">{0}あなたに言及しました</string>
+    <string name="ntfctn_txt_usernameacceptedyourfollowrequests">{0}はあなたのフォローリクエストを受け入れました。</string>
+    <string name="ntfctn_txt_usernameonmenu">あなたのFacebookの友人{0}は{1}としてYeemosにいます。</string>
+    <string name="ntfctn_txt_usernamepostedaphoto">{0}気分です...</string>
+    <string name="ntfctn_txt_usernamestartedfollow">{0}はあなたに続いて始めました。</string>
+    <string name="ntfctn_txt_userrequeststofollowyou">{0}はあなたに従うことを要求しました。</string>
+    <string name="ntfctn_txtonpg_igusernameonmenu">Instagramの友人Johnは、JohnyeeとしてYeemosにいます。</string>
+    <string name="ntfctn_txtonpg_johncommented">あなたの投稿にJohnがコメントしました\nジョンはあなたに </string>
+    <string name="ntfctn_txtonpg_johnlikedyourphoto">ジョンはあなたのポストを感じました。</string>
+    <string name="ntfctn_txtonpg_johnsentyoumessage">ジョンはあなたにメッセージを送った。</string>
+    <string name="ntfctn_txtonpg_usernameacceptedyourfollowrequests">ジョンはあなたのフォローリクエストを受け入れました。</string>
+    <string name="ntfctn_txtonpg_usernameonmenu">あなたのFacebook / Instagramの友人Johnは、JohnfoodieとしてYeemosにいます。</string>
+    <string name="ntfctn_txtonpg_userrequeststofollowyou">ジョンはあなたに従うことを要求しました。</string>
+    <string name="nwedtgrp_ttl_editgroup">グループの編集</string>
+    <string name="nwedtgrp_ttl_newgroup">新グループ</string>
+    <string name="nwedtgrp_txt_entergroupname">ここにグループ名を入力してください</string>
+    <string name="nwedtgrp_txt_groupname">グループ名</string>
+    <string name="nwedtgrp_txt_myfriend">私の友人</string>
+    <string name="nwedtgrp_txt_samegroupexist">あなたが選んだ友達は、既存のグループ \"%s\"と同じです。</string>
+    <string name="nwedtgrp_txt_samegroupname">グループ名はすでに存在します。グループ名を再入力してください。</string>
+    <string name="pblc_btn_abuse">乱用</string>
+    <string name="pblc_btn_block">ユーザをブロックする</string>
+    <string name="pblc_btn_blockforanonymouspost">ブロック</string>
+    <string name="pblc_btn_blockpost">ブロックポスト</string>
+    <string name="pblc_btn_cancel">キャンセル</string>
+    <string name="pblc_btn_commercialspam">商用スパム</string>
+    <string name="pblc_btn_delete">削除</string>
+    <string name="pblc_btn_done">完了</string>
+    <string name="pblc_btn_edit">編集</string>
+    <string name="pblc_btn_editname">名前を編集</string>
+    <string name="pblc_btn_finish">終了</string>
+    <string name="pblc_btn_follow">フォローする</string>
+    <string name="pblc_btn_following">以下</string>
+    <string name="pblc_btn_igotit">わかった</string>
+    <string name="pblc_btn_next">次</string>
+    <string name="pblc_btn_no">いいえ</string>
+    <string name="pblc_btn_notificationoff">投稿通知オフ</string>
+    <string name="pblc_btn_notificationon">投稿通知</string>
+    <string name="pblc_btn_offensive">攻撃</string>
+    <string name="pblc_btn_ok">OK</string>
+    <string name="pblc_btn_porn">ポルノ</string>
+    <string name="pblc_btn_reload">リロード</string>
+    <string name="pblc_btn_removefriend">友達を削除</string>
+    <string name="pblc_btn_rename">リネーム</string>
+    <string name="pblc_btn_report">報告書</string>
+    <string name="pblc_btn_requested">要求された</string>
+    <string name="pblc_btn_scam">詐欺</string>
+    <string name="pblc_btn_send">送信</string>
+    <string name="pblc_btn_sharetofb">Facebookに共有</string>
+    <string name="pblc_btn_sharetoig">Instagramに共有する</string>
+    <string name="pblc_btn_unfollow">アンフォロー</string>
+    <string name="pblc_btn_yes">はい</string>
+    <string name="pblc_err_nogallery">この機能はギャラリーにアクセスする必要があります。 もう一度試してください。</string>
+    <string name="pblc_err_noinstagram">この機能にはInstagramがインストールされている必要があります。もう一度試してみてください。</string>
+    <string name="pblc_ttl_customrename">カスタムリネーム</string>
+    <string name="pblc_txt_accountdeletedtheme">アカウント削除通知</string>
+    <string name="pblc_txt_accountfrozentheme">アカウント凍結通知</string>
+    <string name="pblc_txt_accountunfrozen">アカウント非固定通知</string>
+    <string name="pblc_txt_admin">管理者</string>
+    <string name="pblc_txt_anonymity">匿名</string>
+    <string name="pblc_txt_areyousure">本気ですか？</string>
+    <string name="pblc_txt_autoloadfailed">データの読み込みに失敗しました。インターネット接続を確認して、もう一度お試しください。</string>
+    <string name="pblc_txt_blocksuccessful">このユーザーはブロックされています。</string>
+    <string name="pblc_txt_cancelled">キャンセル</string>
+    <string name="pblc_txt_couldnotloadpage">ページを読み込めませんでした。\n\nリフレッシュするにはタップしてください。</string>
+    <string name="pblc_txt_daysago">%s 数日前</string>
+    <string name="pblc_txt_editedsuccessful">編集済み</string>
+    <string name="pblc_txt_email">support＠yeemos.com</string>
+    <string name="pblc_txt_exporting">エクスポート</string>
+    <string name="pblc_txt_finishingup">仕上げ</string>
+    <string name="pblc_txt_firsttimetouseanonymous">😊フレンドリーリマインダー：ユーザーがユーザーサービス規則に違反してコンテンツをアップロードすると、正式にYeemosによって中断されます。</string>
+    <string name="pblc_txt_hoursago">%s 時間前</string>
+    <string name="pblc_txt_me">（私）</string>
+    <string name="pblc_txt_minutesago">%s 数分前</string>
+    <string name="pblc_txt_nofb">この機能を使用するには、お使いの端末にFacebookをインストールする必要があります</string>
+    <string name="pblc_txt_nointernet">インターネット接続なし</string>
+    <string name="pblc_txt_noresult">検索結果はありません</string>
+    <string name="pblc_txt_postloadfail">投稿の読み込みに失敗しました。インターネット接続を確認して、もう一度お試しください。</string>
+    <string name="pblc_txt_postnotavailable">この投稿は利用できません。</string>
+    <string name="pblc_txt_postnotificationon">このユーザーの通知を有効にしました。</string>
+    <string name="pblc_txt_ready">準備完了</string>
+    <string name="pblc_txt_reportsuccess">あなたのレポートが提出されました。私たちは内容を見直します。あなたの報告をありがとう。</string>
+    <string name="pblc_txt_saved">保存された</string>
+    <string name="pblc_txt_saving">保存中...</string>
+    <string name="pblc_txt_search">フレンズ/＃ハッシュタグを検索する</string>
+    <string name="pblc_txt_secondsago">%s 数秒前</string>
+    <string name="pblc_txt_sending">送信</string>
+    <string name="pblc_txt_sent">送られた</string>
+    <string name="pblc_txt_sharedsuccessful">共有成功</string>
+    <string name="pblc_txt_texthere">ここにテキストを書くことができます...</string>
+    <string name="pblc_txt_unfollowuser">このユーザーをフォローしませんか？</string>
+    <string name="pblc_txt_weeksago">%s 何週間前</string>
+    <string name="pblc_txt_whyreport">なぜあなたはこれを報告していますか？</string>
+    <string name="pf_txt_acceptrequest">{0}あなたのフォローリクエストを受け入れました</string>
+    <string name="pf_txt_comment">{0}あなたの投稿にコメントが残っています</string>
+    <string name="pf_txt_commentanonymous">誰かがあなたの投稿にコメントを残しました</string>
+    <string name="pf_txt_drawingcommentanonymous">誰かがあなたのポストに落書きしました。</string>
+    <string name="pf_txt_felt">{0}あなたの投稿を感じました</string>
+    <string name="pf_txt_feltanonymous">誰かがあなたのポストを感じました。</string>
+    <string name="pf_txt_followingyou">{0}はあなたに続いて始めました</string>
+    <string name="pf_txt_mentionyou">{0}あなたに言及しました</string>
+    <string name="pf_txt_mentionyouanonymous">誰かがあなたに言いました</string>
+    <string name="pf_txt_newpost">{0}気分です...</string>
+    <string name="pf_txt_newpostanonymous">誰かがちょうど新しい投稿をした</string>
+    <string name="pf_txt_nulltyping">あなたの友人は入力しています...</string>
+    <string name="pf_txt_receivemessage">{0}さんにメッセージが送信されました。</string>
+    <string name="pf_txt_receivemessagefromnull">あなたの友人はあなたにメッセージを送った。</string>
+    <string name="pf_txt_requesttofollow">{0}はあなたにフォローするように要求しました</string>
+    <string name="pf_txt_tookscreenshot">{0}はチャットのスクリーンショットを撮った！</string>
+    <string name="pf_txt_typing">{0}は入力中です...</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"検索をクリア"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"検索"</string>
+    <string name="pllrct_ttl_feel">感じる</string>
+    <string name="pllrct_txt_nofeel">まだ気分がいい</string>
+    <string name="prfl_btn_changeavatar">アバターを変更する</string>
+    <string name="prfl_btn_findfriend">ユーザーを探す</string>
+    <string name="prfl_btn_followedme">私に続いて</string>
+    <string name="prfl_btn_myfriend">私の友人</string>
+    <string name="prvcy_ttl_privacy">プライバシー</string>
+    <string name="pst_txt_previous">メモリアル</string>
+    <string name="pst_vw_txt_doodleforfun">好玩的な塗りに這うこと！</string>
+    <string name="pst_vw_txt_feelthepost">クリックまたはスワイプして次の投稿を表示する</string>
+    <string name="pst_vw_txt_selectemotion">その他のフィールオプションのために保持</string>
+    <string name="pst_vw_txt_swipeleft">左スワイプ</string>
+    <string name="pst_vw_txt_tapanywhere">タップ</string>
+    <string name="pstvw_txt_sentmessage">%sあなたに新しいメッセージを送りました</string>
+    <string name="pub_btn_abuse">乱用</string>
+    <string name="pub_btn_commercialspam">商用スパム</string>
+    <string name="pub_btn_nor_later">後</string>
+    <string name="pub_btn_nor_updatenow">今すぐアップデート</string>
+    <string name="pub_btn_offensive">攻撃</string>
+    <string name="pub_btn_ok">決定する</string>
+    <string name="pub_btn_porn">ポルノ</string>
+    <string name="pub_btn_scam">詐欺</string>
+    <string name="pub_err_deleteaccount">ユーザーの皆様、\n\n何らかの理由でアカウントが削除されました。 詳細はお問い合わせください（email：support＠yeemos.com）。 ありがとうございました</string>
+    <string name="pub_err_freezeaccount">ユーザーの皆様、\n\n何らかの理由でアカウントが凍結されました。 アカウントを通常使用するには、詳細についてお問い合わせください（email：support＠yeemos.com）。 ありがとうございました。</string>
+    <string name="pub_err_nointernet">インターネット接続なし</string>
+    <string name="pub_err_unfreezeaccount">尊重されたユーザー、\n \nあなたのアカウントは凍結されていません。ご協力いただきありがとうございます。</string>
+    <string name="pub_txt_backendversion">1.1.5</string>
+    <string name="pub_txt_newversioncontent">新しいバージョンがApp Storeにダウンロード可能です。引き続き使用するには更新してください。</string>
+    <string name="pub_txt_newversioncontentandroid">今すぐ入手できる新しいバージョンがあります。引き続き使用するには更新してください。</string>
+    <string name="pub_txt_newversioncontentnormal">新しいバージョンがApp Storeにダウンロード可能です。</string>
+    <string name="pub_txt_newversiontitle">新しいバージョンが利用可能</string>
+    <string name="pub_txt_nocameraaccess">カメラを使用して写真、短い動画などを撮影するには、カメラにアクセスする必要があります。システム設定から許可してください。</string>
+    <string name="pub_txt_nocontactsaccess">連絡先にアクセスして連絡先をYeemosのサーバーにアップロードして、あなたと他のユーザーが友人を見つけて、あなたの経験を改善できるようにします。システム設定から許可してください。</string>
+    <string name="pub_txt_nogalleryaccess">カメラロールから写真や動画を選択したり、カメラロールに撮った写真や動画を保存したり、チャットなどで写真を送信したりするには、ギャラリーにアクセスする必要があります。 システム設定から許可してください。</string>
+    <string name="pub_txt_nolocationaccess">ロケーションを有効にしてもっと楽しいフィルターを使用し、さらに多くを見るホームページ上でのフィーチャー。</string>
+    <string name="pub_txt_nomicrophone">短い動画用の音声を録音するには、マイクにアクセスする必要があります。システム設定から許可してください。</string>
+    <string name="pub_txt_noreadwrite">続行するには、デバイスの内部/外部カードを読み書きする必要があります。システム設定から許可してください。</string>
+    <string name="pub_txt_nosms">続行するには、SMSにアクセスする必要があります。システム設定から許可してください。</string>
+    <string name="pub_txt_suretodelete">削除してもよろしいですか？</string>
+    <string name="pub_txt_uploading">アップロード中</string>
+    <string name="pub_txt_uploadingfailed">アップロードに失敗しました</string>
+    <string name="pub_txt_usecamera">Yeemosは、写真、短い動画などを撮影するためにカメラにアクセスする必要があります。</string>
+    <string name="pub_txt_whatsnew">現在入手可能な新しいバージョンがあります。</string>
+    <string name="pub_unknownerror">サーバーエラー。 後でもう一度お試しください。</string>
+    <string name="rqst_ttl_request">要求</string>
+    <string name="rst_psswrd_eandu_btn_search">サーチ</string>
+    <string name="rst_psswrd_eandu_ttl_resetpassword">パスワードを再設定する</string>
+    <string name="rst_psswrd_eandu_txt_emailsent">送信されたパスワード電子メールをリセットします。登録したメールを確認してください。</string>
+    <string name="rst_psswrd_eandu_txt_findyouraccount">あなたのアカウントを見つけてください</string>
+    <string name="rst_psswrd_eandu_txt_findyouraccountcontent">あなたのアカウントに関連付けられているあなたのユーザー名またはメールアドレスを入力してください。パスワードをリセットするためのリンクが送信されます。</string>
+    <string name="rst_psswrd_eandu_txt_usernameoremail">ユーザー名または電子メール</string>
+    <string name="rst_psswrd_usngFB_notassociatewithemail">あなたのアカウントはどのメールにも関連付けられていません。第三者のアカウントを使用して直接ログインしてください。</string>
+    <string name="rst_psswrd_usngFB_txt_passwordsnotmatch">パスワードが一致していません。</string>
+    <string name="rst_psswrd_usngfb_btn_reset">リセット</string>
+    <string name="rst_psswrd_usngfb_ttl_resetpassword">パスワードを再設定する</string>
+    <string name="rst_psswrd_usngfb_txt_content">お帰りなさい %s！</string>
+    <string name="rst_psswrd_usngfb_txt_inputtwice">新しいパスワードを2回入力してリセットする</string>
+    <string name="rst_psswrd_usngfb_txt_newpassword">新しいパスワード</string>
+    <string name="rst_psswrd_usngfb_txt_newpasswordagain">パスワードを認証する</string>
+    <string name="rst_psswrd_usngfb_txt_username">%s</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string name="sgn_up_btn_alreadyhaveaccount">すでにアカウントをお持ちですか？ サインイン</string>
+    <string name="sgn_up_err_email">正しいメールアドレスを入力してください</string>
+    <string name="sgn_up_err_password">パスワードの長さは4〜20文字です。</string>
+    <string name="sgn_up_err_username">ユーザー名は英字、数字、アンダースコア、ハイフン、ピリオドのみを許可します。 4〜20文字にする必要があります。</string>
+    <string name="sgn_up_ttl_signup">サインアップ</string>
+    <string name="sgn_up_txt_and">そして</string>
+    <string name="sgn_up_txt_communityguidelines">コミュニティガイドライン</string>
+    <string name="sgn_up_txt_createusername">ユーザー名</string>
+    <string name="sgn_up_txt_email">電子メールアドレス</string>
+    <string name="sgn_up_txt_password">パスワード</string>
+    <string name="sgn_up_txt_privacypolicy">個人情報保護方針</string>
+    <string name="sgn_up_txt_requireditems">必須項目</string>
+    <string name="sgn_up_txt_subject">Yeemosへようこそ！</string>
+    <string name="sgn_up_txt_termsofservice">利用規約</string>
+    <string name="sgn_up_txt_welcomecontent">こんにちは{0}、イエーモスへようこそ！</string>
+    <string name="sgn_up_txt_youagreetothe">利用規約、プライバシーポリシー、コミュニティガイドラインに同意したものとします。</string>
+    <string name="sgninhlp_btn_resetusingfb">Facebook</string>
+    <string name="sgninhlp_btn_resetusingig">インスタグラム</string>
+    <string name="sgninhlp_btn_usernameoremail">ユーザー名または電子メール</string>
+    <string name="sgninhlp_ttl_resetyourpassword">あなたのパスワードをリセット</string>
+    <string name="sgninhlp_ttl_signinhelp">ヘルプで紹介する</string>
+    <string name="sgninhlp_txt_emailchanged">あなたのYeemosのパスワードが変更されました</string>
+    <string name="sgninhlp_txt_emailchangedcontent">こんにちは。\n\nあなたのYeemosアカウント{0}のパスワードが正常に変更されました。新しいパスワードでログインしてください。 まだ行っていない場合は、アカウントのセキュリティを確保するため、support＠yeemos.comまでご連絡ください。</string>
+    <string name="sgninhlp_txt_forgotpassword">パスワードをお忘れですか？</string>
+    <string name="sgninhlp_txt_howreset">あなたのパスワードをリセット</string>
+    <string name="sgninhlp_txt_ignotlinkedemail">あなたのInstagramアカウントはどのメールにも関連付けられていません。</string>
+    <string name="sgninhlp_txt_notlinkedemail">あなたのFacebookアカウントはどのメールにも関連付けられていません。</string>
+    <string name="sgninhlp_txt_resetemailcontent">こんにちは、私たちはあなたのYeemosパスワードをリセットする要求を持っています。 リセットするにはここをクリックしてください。 このメッセージを無視すると、パスワードは変更されません。</string>
+    <string name="shrs_ttl_shares">株式</string>
+    <string name="slctcntry_ttl_selectcountry">国を選択</string>
+    <string name="slctpht_btn_changfolder">フォルダを変更するにはここをクリック</string>
+    <string name="slctphtorvd_btn_changefolder">フォルダを変更するにはここをクリック</string>
+    <string name="slctphtorvd_txt_videonotvalid">この動画は無効です。</string>
+    <string name="srchid_btn_people">誰かを探している</string>
+    <string name="srchtag_btn_tags">タグ</string>
+    <string name="srchtag_txt_posts">投稿</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sttngs_btn_aboutus">私たちに関しては</string>
+    <string name="sttngs_btn_blacklist">ブラックリスト</string>
+    <string name="sttngs_btn_changepassword">パスワードを変更する</string>
+    <string name="sttngs_btn_clearcache">キャッシュの消去</string>
+    <string name="sttngs_btn_communityguidelines">コミュニティガイドライン</string>
+    <string name="sttngs_btn_contactus">お問い合わせ</string>
+    <string name="sttngs_btn_editprofile">プロファイル編集</string>
+    <string name="sttngs_btn_findpeople">人を見つけます</string>
+    <string name="sttngs_btn_help">助けて</string>
+    <string name="sttngs_btn_language">言語</string>
+    <string name="sttngs_btn_linkedaccounts">リンクされたアカウント</string>
+    <string name="sttngs_btn_logout">ログアウト</string>
+    <string name="sttngs_btn_notificationset">通知設定</string>
+    <string name="sttngs_btn_notificationsound">通知音</string>
+    <string name="sttngs_btn_privacypolicy">個人情報保護方針</string>
+    <string name="sttngs_btn_privateaccount">私的なアカウント</string>
+    <string name="sttngs_btn_privatefollowlist">プライバシーウォッチリスト</string>
+    <string name="sttngs_btn_saveoriginal">元の写真を保存する</string>
+    <string name="sttngs_btn_terms">条項</string>
+    <string name="sttngs_ttl_settings">設定</string>
+    <string name="sttngs_txt_account">アカウント</string>
+    <string name="sttngs_txt_clearcachefinish">キャッシュは正常にクリアされました。</string>
+    <string name="sttngs_txt_clearcachetext">キャッシュをクリアしてもよろしいですか？</string>
+    <string name="sttngs_txt_function">関数</string>
+    <string name="sttngs_txt_privateaccountexplain">あなたのアカウントが非公開の場合、あなたが承認した人だけがあなたの投稿をYeemosに見ることができます。既存のフォロワーは影響を受けません。</string>
+    <string name="sttngs_txt_privatefollowlistexplain">フォローリストがプライベートである場合、他のユーザーはあなたのフォロワーとフォローを見ることができません。</string>
+    <string name="sttngs_txt_yeemos">イェモス</string>
+    <string name="tgfrnd_ttl_tagafriend">友達にタグを付ける</string>
+    <string name="tgfrnd_txt_searchforfriend">友達を検索する</string>
+    <string name="trms_ttl_terms">条項</string>
+    <string name="usrprfl_btn_block">ブロック</string>
+    <string name="usrprfl_btn_editname">名前を編集</string>
+    <string name="usrprfl_btn_editprofile">プロファイル編集</string>
+    <string name="usrprfl_btn_follower">フォロワー</string>
+    <string name="usrprfl_btn_following">以下</string>
+    <string name="usrprfl_btn_notificationoff">通知をオフにする</string>
+    <string name="usrprfl_btn_notificationon">の通知</string>
+    <string name="usrprfl_btn_posts">株式</string>
+    <string name="vrfyphn_ttl_verifyphone">携帯電話を確認する</string>
+    <string name="vrfyphn_txt_country">国</string>
+    <string name="vrfyphn_txt_number">電話番号</string>
+    <string name="vws_ttl_views">ビュー</string>
+    <string name="vws_txt_noview">まだ表示がありません</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:background="@color/color_153_153_153" />
+
+    <RelativeLayout
+        android:id="@+id/rlBg"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/btn_round_rect_bg"
+        android:paddingBottom="14dp">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="9dp">
+
+            <TextView
+                android:id="@+id/tvRenameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Custom rename"
+                android:textColor="@color/color_187_187_187"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btnClose"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="9dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/popup_grey_cross" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/etDisplayName"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="CURRENT DISPLAYNAME"
+            android:textColor="@color/color_45_223_227"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="228dp"
+            android:layout_height="1px"
+            android:layout_below="@id/etDisplayName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:background="@color/color_187_187_187" />
+
+        <Button
+            android:id="@+id/btnRename"
+            android:layout_width="108dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/line"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_round_5_rect_bg"
+            android:text="RENAME"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

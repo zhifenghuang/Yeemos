@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yemmos="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/show_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_shadow"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp">
+
+        <RelativeLayout
+            android:id="@+id/rlPlayMovieCountdownView"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone">
+
+            <com.yeemos.app.view.CountDownView
+                android:id="@+id/playMovieCountdownView"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/tvTotalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:alpha="0.75"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <!--       <ImageButton
+                   android:id="@+id/btnPostAnonymous"
+                   android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="41dp"
+                   android:alpha="0.4"
+                   android:background="@android:color/transparent"
+                   android:src="@drawable/view_edit_anonymous"
+                   android:visibility="invisible" />-->
+
+        <ImageButton
+            android:id="@+id/btnPostPrivacy"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60dp"
+            android:alpha="0.4"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/view_edit_public"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:layout_toLeftOf="@id/btnPostPrivacy"
+            android:alpha="0.4"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/view_viewicon"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_255_255_255"
+            android:textSize="@dimen/MenuTextSize_14"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rlUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btnView"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.75"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvUserName"
+                android:layout_marginTop="12dp"
+                android:alpha="0.75">
+
+                <com.yeemos.app.view.RoundProgressBar
+                    android:id="@+id/roundProgressBar"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="3dp"
+                    android:visibility="gone"
+                    yemmos:max="24"
+                    yemmos:roundColor="@color/color_255_255_255"
+                    yemmos:roundProgressColor="@color/color_85_85_85"
+                    yemmos:style="FILL" />
+
+                <TextView
+                    android:id="@+id/tvPostBeforeTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/roundProgressBar"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.7"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bottom_shader" />
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="13dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="6dp">
+
+        <ImageView
+            android:id="@+id/ivIsFromAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/roll_watermark" />
+
+        <com.yeemos.app.view.ScaleImageButton
+            android:id="@+id/btnSelectEmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.75"
+            android:background="@android:color/transparent"
+            android:src="@drawable/emo_bad"
+            yemmos:btnScale="0.7"
+            yemmos:widthPadding="40" />
+
+
+        <ImageButton
+            android:id="@+id/btnPostDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/more_btn" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="8dp"
+        android:visibility="gone">
+
+        <com.yeemos.app.view.ScaleImageButton
+            android:id="@+id/btnEmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/emo_angry"
+            yemmos:btnScale="0.7" />
+
+
+        <ImageButton
+            android:id="@+id/btnPrivacy"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/btnEmo"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/public_unselected" />
+
+        <ImageButton
+            android:id="@+id/btnAnonymous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/btnPrivacy"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_not_anonymous"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/btnAnonymous"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_save"
+            android:visibility="invisible" />
+
+
+        <ImageButton
+            android:id="@+id/btnSetTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/btnSave"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_24hrs" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circle_bg"
+            android:src="@drawable/share_btn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPostText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomEditView"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="31dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rlBottom"
+        android:layout_marginRight="50dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <com.yeemos.app.view.TextViewDoubleClick
+            android:id="@+id/tvOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="3"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlTextAll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/half_transparent"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:visibility="gone">
+
+        <com.yeemos.app.view.TextViewDoubleClick
+            android:id="@+id/tvTextAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/fileLoadBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/postEditView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000"
+        android:paddingLeft="21dp"
+        android:paddingRight="21dp"
+        android:visibility="gone">
+
+        <com.common.mentiontextview.MentionTextView
+            android:id="@+id/etPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="true"
+            android:dropDownWidth="match_parent"
+            android:gravity="left|top"
+            android:hint="You can write text here..."
+            android:imeOptions="actionDone"
+            android:maxLines="5"
+            android:textColor="@color/color_255_255_255"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/edit_back"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/btnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/edit_text_area"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/rightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlBottom"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDrawCommentNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:alpha="0.75"
+            android:drawableTop="@drawable/draw_btn"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvCommentsNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:alpha="0.75"
+            android:drawableTop="@drawable/comment_btn"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvEmoNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:alpha="0.75"
+            android:drawableTop="@drawable/pills_btn"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

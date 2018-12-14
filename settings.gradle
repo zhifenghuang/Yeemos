@@ -1,0 +1,11 @@
+//include 'vitamio'
+include ':app', ':Core', ':GBYemmosSocial', ':GBSocialMedia',':GBFacebook'//, ':Volley'//,'GBTwitter',":GBGooglePlus"':CommonUILib',
+project(':Core').projectDir = new File('../common/Core/1.0.0/Core/app')
+project(':GBYemmosSocial').projectDir = new File('../common/GBYemmosSocial/1.0.0/GBYemmosSocial/app')
+//project(':Volley').projectDir = new File('../sdks/Volley/1.0.0/Volley')
+project(':GBSocialMedia').projectDir = new File('../common/Platforms/2.0.0/GBSocialMedia/app')
+//project(':facebook').projectDir = new File('../sdks/facebook/4.8.2/facebook')
+//project(':CommonUILib').projectDir = new File('../common/CommonUILib/1.0.0/CommonUILib/app')
+project(':GBFacebook').projectDir = new File('../common/Platforms/2.0.0/GBFacebook/app')
+//project(':GBTwitter').projectDir = new File('../common/Platforms/2.0.0/GBTwitter/app')
+//project(':GBGooglePlus').projectDir = new File('../common/Platforms/2.0.0/GBGooglePlus/app')

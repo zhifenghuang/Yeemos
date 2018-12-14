@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/addByUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/find_username"
+        android:textColor="@color/color_88_89_91"
+        android:text="Add by Username"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_187_187_187"/>
+    <TextView
+        android:id="@+id/addfromAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/find_addressbook"
+        android:textColor="@color/color_88_89_91"
+        android:text="Add from Address Book"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_187_187_187"/>
+    <TextView
+        android:id="@+id/addfromFB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/find_facebook"
+        android:textColor="@color/color_88_89_91"
+        android:text="Add from Facebook"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="gone"
+        android:background="@color/color_187_187_187"/>
+    <TextView
+        android:id="@+id/addfromIG"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/find_instagram"
+        android:textColor="@color/color_88_89_91"
+        android:text="Add from Instagram"/>
+    <TextView
+        android:id="@+id/recommendUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="7dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:background="@color/color_45_223_227"
+        android:drawableLeft="@drawable/white_star"
+        android:textColor="@color/color_255_255_255"
+        android:text="Recommended User"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

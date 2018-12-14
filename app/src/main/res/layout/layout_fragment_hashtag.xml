@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_45_223_227"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/reTopView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/topView"
+        android:background="@color/color_45_223_227"
+        android:paddingLeft="7dp">
+
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/white_back_no_shadow" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <com.yeemos.app.view.VerticalSwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/reTopView"
+        android:background="@android:color/white">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/color_255_255_255"
+            android:dividerHeight="0dp" />
+
+    </com.yeemos.app.view.VerticalSwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/noDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/color_255_255_255"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/MenuTextSize_18"
+        android:textColor="@color/color_187_187_187"
+        android:visibility="gone"
+        android:drawableTop="@drawable/no_post_log" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+#Fri Dec 14 10:25:19 CST 2018
+base.0=/home/gigabud/AndroidStudioProjects/Yeemos/app/build/intermediates/transforms/dexMerger/release/0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/gigabud/AndroidStudioProjects/Yeemos/app/build/intermediates/transforms/dexMerger/release/0

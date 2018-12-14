@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_rect_corner_4_radius_12_color_while">
+
+        <TextView
+            android:id="@+id/chooseFriendTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose friend you would like to share"
+            android:textSize="@dimen/MenuTextSize_17"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_142_153_168"
+            android:layout_marginTop="23dp" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_below="@+id/chooseFriendTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:background="@color/color_201_201_201" />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bootBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="138dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/round_rect_corner_4_radius_13_color_while"
+                android:text="Cancel" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/btnOK"
+                android:layout_width="138dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="@dimen/MenuTextSize_17"
+                android:alpha="0.5"
+                android:textColor="@color/color_255_255_255"
+                android:background="@drawable/round_rect_conner_4_radius_13_color_45_223_227"
+                android:text="OK" />
+        </LinearLayout>
+
+        <com.yeemos.app.view.VerticalSwipeRefreshLayout
+
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_above="@id/bootBar"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_below="@id/line1">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:cacheColorHint="#ffffff"
+                android:scrollbars="none"
+                android:divider="#00ffffff"
+                android:dividerHeight="0dp"
+                android:fadingEdgeLength="1dp"
+                android:listSelector="#00000000" />
+        </com.yeemos.app.view.VerticalSwipeRefreshLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

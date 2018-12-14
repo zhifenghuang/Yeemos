@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yeemos.app.view.VerticalSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yemmos="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/topView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/black_back" />
+
+            <ImageButton
+                android:id="@+id/btnMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/black_setting" />
+
+            <TextView
+                android:id="@+id/tvDisplayName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/btnMore"
+                android:layout_toRightOf="@id/btnBack"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="SUSAN CHAN"
+                android:textColor="@color/color_45_223_227"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/redPoint"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_toLeftOf="@+id/tvDisplayName"
+                android:background="@drawable/btn_round_shape_red_bg"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profileView"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_below="@+id/topView">
+
+            <com.yeemos.app.view.PagerDotView
+                android:id="@+id/pagerDotView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="13dp"
+                android:layout_marginTop="4dp"
+                yemmos:otherPageDotColor="@color/color_170_170_170"
+                yemmos:selectedPageDotColor="@color/color_0_221_255"
+                yemmos:totalPage="2" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/userInfoViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/pagerDotView"
+                android:background="@android:color/transparent" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btnBackToCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_to_cam"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:visibility="gone"
+            android:padding="8dp"/>
+
+        <com.yeemos.app.view.CustomViewPager
+            android:id="@+id/userPostViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profileView"
+            android:layout_above="@id/btnBackToCamera"
+            android:visibility="gone">
+
+        </com.yeemos.app.view.CustomViewPager>
+
+        <RelativeLayout
+            android:id="@+id/rlNoPost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profileView"
+            android:layout_above="@id/btnBackToCamera"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivNoPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/no_post_log" />
+
+            <TextView
+                android:id="@+id/tvNoPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivNoPost"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:alpha="0.6"
+                android:textColor="@color/color_187_187_187"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</com.yeemos.app.view.VerticalSwipeRefreshLayout>

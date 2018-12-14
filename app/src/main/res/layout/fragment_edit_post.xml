@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yemmos="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <com.yeemos.app.view.GLShaderJNIView
+        android:id="@+id/glView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.yeemos.app.view.HandleRelativeLayout
+        android:id="@+id/handleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <com.yeemos.app.view.CustomViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </com.yeemos.app.view.HandleRelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPostText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOne"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <com.yeemos.app.view.DrawCommentView
+        android:id="@+id/drawCommentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.yeemos.app.view.DrawCommentView>
+
+
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="3dp">
+
+        <com.yeemos.app.view.ScaleImageButton
+            android:id="@+id/btnEmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/emo_angry"
+            yemmos:btnScale="0.7" />
+
+
+        <ImageButton
+            android:id="@+id/btnPrivacy"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btnEmo"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/public_unselected" />
+
+        <ImageButton
+            android:id="@+id/btnAnonymous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btnPrivacy"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_not_anonymous" />
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btnAnonymous"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_save" />
+
+
+        <ImageButton
+            android:id="@+id/btnSetTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btnEmo"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btnSave"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_24hrs" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circle_bg"
+            android:src="@drawable/share_btn" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

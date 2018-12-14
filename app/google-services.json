@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "369087697276",
+    "firebase_url": "https://yeemos-148203.firebaseio.com",
+    "project_id": "yeemos-148203",
+    "storage_bucket": "yeemos-148203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369087697276:android:93bc920df40f6813",
+        "android_client_info": {
+          "package_name": "com.yeemos.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369087697276-mfm73vbtdloraf6u0rh7n7fpch2br2vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCANgVCdqzCsdXHdlXKVp5EfykvmGUJ1YU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

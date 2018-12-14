@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/blue_back" />
+
+        <TextView
+            android:id="@+id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="@dimen/MenuTextSize_20" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/membership_InputEditField"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/color_88_89_91" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_xxxl"
+        android:layout_marginRight="@dimen/space_xxxl"
+        android:layout_marginTop="11dp"
+        android:background="@color/color_153_153_153" />
+
+    <EditText
+        android:id="@+id/et_psw"
+        style="@style/membership_InputEditField"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/color_88_89_91" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_xxxl"
+        android:layout_marginRight="@dimen/space_xxxl"
+        android:layout_marginTop="11dp"
+        android:background="@color/color_153_153_153" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/btn_roundrect_redbg_whitetext"
+        android:paddingBottom="@dimen/space_l"
+        android:paddingTop="@dimen/space_l"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvForgetPsw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Or click here to create an account"
+        android:textColor="@color/color_142_153_168"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:src="@drawable/reg_watermark" />
+
+</LinearLayout>

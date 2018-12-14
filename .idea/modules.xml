@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../common/Core/1.0.0/Core/app/Core.iml" filepath="$PROJECT_DIR$/../common/Core/1.0.0/Core/app/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../common/Platforms/2.0.0/GBFacebook/app/GBFacebook.iml" filepath="$PROJECT_DIR$/../common/Platforms/2.0.0/GBFacebook/app/GBFacebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../common/Platforms/2.0.0/GBSocialMedia/app/GBSocialMedia.iml" filepath="$PROJECT_DIR$/../common/Platforms/2.0.0/GBSocialMedia/app/GBSocialMedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../common/GBYemmosSocial/1.0.0/GBYemmosSocial/app/GBYemmosSocial.iml" filepath="$PROJECT_DIR$/../common/GBYemmosSocial/1.0.0/GBYemmosSocial/app/GBYemmosSocial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yeemos.iml" filepath="$PROJECT_DIR$/Yeemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

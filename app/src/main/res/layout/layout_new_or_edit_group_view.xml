@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_255_255_255"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgCloseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/up_close_4x" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="New/Edit Group"
+            android:textSize="@dimen/MenuTextSize_17"
+            android:textColor="@color/color_88_89_91"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/MenuTextSize_17"
+            android:textColor="@color/color_45_223_227"
+            android:layout_marginRight="10dp"
+            android:text="Done"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="22dp">
+
+        <TextView
+            android:id="@+id/groupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group Name"
+            android:textStyle="bold"
+            android:textSize="@dimen/MenuTextSize_16"
+            android:textColor="@color/color_142_153_168" />
+
+        <EditText
+            android:id="@+id/etGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/MenuTextSize_17"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/color_88_89_91"
+            android:hint="Enter the name here eg.My Group 01"
+            android:textColorHint="@color/color_187_187_187"
+            android:background="@null" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_201_201_201"
+            android:layout_marginTop="9dp" />
+
+        <TextView
+            android:id="@+id/friendList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/MenuTextSize_16"
+            android:textColor="@color/color_142_153_168"
+            android:text="Firend List" />
+    </LinearLayout>
+
+    <com.yeemos.app.view.VerticalSwipeRefreshLayout
+
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_above="@id/bootBar"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_below="@id/line1">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#ffffff"
+            android:scrollbars="none"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dp"
+            android:fadingEdgeLength="1dp"
+            android:listSelector="#00000000" />
+    </com.yeemos.app.view.VerticalSwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/hashTagRe"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:paddingLeft="@dimen/space_xl"
+    android:paddingRight="@dimen/space_xl">
+
+
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tvPhotoDes"
+        android:textColor="@color/color_142_153_168"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvPhotoDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_m"
+        android:textColor="@color/color_142_153_168"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvHashTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_toLeftOf="@id/tvDes"
+        android:text="#chinesefood"
+        android:textColor="@color/color_45_223_227"
+        android:textSize="14sp"/>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_below="@+id/tvHashTag"-->
+        <!--android:background="@color/comment_line"/>-->
+
+</RelativeLayout>

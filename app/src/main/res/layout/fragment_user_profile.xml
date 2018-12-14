@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yeemos.app.view.VerticalSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/topView"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/black_back" />
+
+            <ImageButton
+                android:id="@+id/btnMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/black_setting" />
+
+            <TextView
+                android:id="@+id/tvDisplayName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/btnMore"
+                android:layout_toRightOf="@id/btnBack"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/redPoint"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_toLeftOf="@+id/tvDisplayName"
+                android:background="@drawable/btn_round_shape_red_bg"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <!-- <RelativeLayout
+             android:id="@+id/profileView"
+             android:layout_width="match_parent"
+             android:layout_height="260dp"
+             android:layout_below="@+id/topView">
+
+             <com.yeemos.app.view.PagerDotView
+                 android:id="@+id/pagerDotView"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginBottom="13dp"
+                 android:layout_marginTop="4dp"
+                 yemmos:otherPageDotColor="@color/color_170_170_170"
+                 yemmos:selectedPageDotColor="@color/color_0_221_255"
+                 yemmos:totalPage="2"/>
+
+             <android.support.v4.view.ViewPager
+                 android:id="@+id/userInfoViewPager"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_above="@id/pagerDotView"
+                 android:background="@android:color/transparent"/>
+         </RelativeLayout>-->
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topView"
+            android:layout_marginTop="13dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llFollowing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvFollowingNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_88_89_91"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvFollowingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_142_153_168"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color_88_89_91"/>
+
+            <LinearLayout
+                android:id="@+id/llFollowers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvFollowersNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_88_89_91"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvFollowersText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_142_153_168"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color_88_89_91"/>
+
+            <LinearLayout
+                android:id="@+id/llPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPostNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_77_226_226"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPostText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_77_226_226"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.yeemos.app.view.RoundedImageView
+            android:id="@+id/ivAvater"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_below="@id/ll"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivAvater"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <ScrollView
+            android:id="@+id/scrollUserBio"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/tvUserName"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:id="@+id/tvUserBio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="12sp"
+                android:alpha="0.6" />
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/friendsProfileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scrollUserBio"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="60dp">
+
+            <com.yeemos.app.view.FollowButton
+                android:id="@+id/btnFollow"
+                android:layout_width="106dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.6"></com.yeemos.app.view.FollowButton>
+
+            <ImageView
+                android:id="@+id/btnNotification"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/btnFollow"
+                android:scaleType="center"
+                android:src="@drawable/btn_notification_selector" />
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/btnBackToCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:padding="8dp"
+            android:src="@drawable/back_to_cam"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/myProfileLy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnBackToCamera"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rlFollowMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivFollowMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile_followed" />
+
+                <TextView
+                    android:id="@+id/tvFollowMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ivFollowMe"
+                    android:textColor="@color/color_88_89_91"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlFindUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivFindUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile_find" />
+
+                <TextView
+                    android:id="@+id/tvFindUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ivFindUser"
+                    android:textColor="@color/color_88_89_91"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlMyFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivMyFriendBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile_friend" />
+
+                <TextView
+                    android:id="@+id/tvMyFriend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ivMyFriendBtn"
+                    android:textColor="@color/color_88_89_91"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--      <com.yeemos.app.view.CustomViewPager
+                  android:id="@+id/userPostViewPager"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_below="@+id/profileView"
+                  android:layout_above="@id/btnBackToCamera"
+                  android:visibility="gone">
+
+              </com.yeemos.app.view.CustomViewPager>
+
+              <RelativeLayout
+                  android:id="@+id/rlNoPost"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:layout_above="@id/btnBackToCamera"
+                  android:layout_below="@+id/profileView">
+
+                  <ImageView
+                      android:id="@+id/ivNoPost"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:src="@drawable/no_post_log" />
+
+                  <TextView
+                      android:id="@+id/tvNoPost"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@id/ivNoPost"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="14dp"
+                      android:alpha="0.6"
+                      android:textColor="@color/color_187_187_187"
+                      android:textSize="17sp" />
+
+              </RelativeLayout>-->
+    </RelativeLayout>
+</com.yeemos.app.view.VerticalSwipeRefreshLayout>

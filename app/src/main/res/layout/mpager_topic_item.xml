@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:paddingLeft="@dimen/space_xl"
+    android:paddingRight="@dimen/space_xl">
+
+    <TextView
+        android:id="@+id/tvHashTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/space_xl"
+        android:paddingTop="@dimen/space_xl"
+        android:text="#chinesefood"
+        android:textColor="@color/comment_text_content"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tvPhotoDes"
+        android:textColor="@color/color_34_166_166"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvPhotoDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_m"
+        android:textColor="@color/hashtag_des_gray"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvHashTag"
+        android:background="@color/comment_line"/>
+
+</RelativeLayout>

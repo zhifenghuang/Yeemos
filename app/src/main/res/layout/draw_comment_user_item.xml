@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yemmos="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/pagerView"
+    android:background="@android:color/white">
+
+    <com.yeemos.app.view.RoundedImageView
+        android:id="@+id/userAvater"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true" />
+
+
+    <TextView
+        android:id="@+id/tvShowOrHide"
+        android:layout_width="68dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Hide"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/round_rect_6_color_142_153_168"
+        android:textColor="@color/color_255_255_255"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="Username"
+        android:layout_toLeftOf="@id/tvShowOrHide"
+        android:layout_toRightOf="@id/userAvater"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="12dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/color_88_89_91"
+        android:textSize="@dimen/MenuTextSize_17" />
+
+
+</RelativeLayout>

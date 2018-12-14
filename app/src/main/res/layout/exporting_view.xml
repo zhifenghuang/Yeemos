@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="match_parent"
+          android:alpha="0.6"
+          android:background="@color/color_153_153_153"/>
+    <RelativeLayout android:layout_width="203dp"
+                    android:layout_height="108dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="180dp"
+                    android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tvExporting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="26dp"
+            android:text="Exporting"
+            android:textColor="@color/color_142_153_168"
+            android:textSize="17sp"/>
+
+        <com.yeemos.app.view.ExportingProgressView
+            android:id="@+id/exportingProgressView"
+            android:layout_width="158dp"
+            android:layout_height="11dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

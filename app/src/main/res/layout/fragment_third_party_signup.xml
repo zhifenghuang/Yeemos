@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/topLayoutView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/blue_back"></ImageView>
+
+        <TextView
+            android:id="@+id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Sign up"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="@dimen/MenuTextSize_20" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="111dp"
+        android:layout_below="@+id/topLayoutView"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_email"
+            style="@style/membership_InputEditField"
+            android:drawableRight="@drawable/required_items_star"
+            android:gravity="center_horizontal"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textSize="19sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_xxxl"
+            android:layout_marginRight="@dimen/space_xxxl"
+            android:layout_marginTop="11dp"
+            android:alpha="0.3"
+            android:background="@color/color_170_170_170" />
+
+        <EditText
+            android:id="@+id/et_usrname"
+            style="@style/membership_InputEditField"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:drawableRight="@drawable/required_items_star"
+            android:hint="Username"
+            android:textSize="19sp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_xxxl"
+            android:layout_marginRight="@dimen/space_xxxl"
+            android:layout_marginTop="11dp"
+            android:alpha="0.3"
+            android:background="@color/color_170_170_170" />
+        <TextView
+            android:id="@+id/requiredItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/required_items_star"
+            android:gravity="center"
+            android:text="Required items"
+            android:textColor="@color/color_142_153_168" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvYouAgree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You agree to the"
+                android:textColor="@color/color_142_153_168"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/layout2"
+        android:layout_above="@+id/btn_ok"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/reg_watermark" />
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_45_223_227"
+        android:paddingBottom="@dimen/space_l"
+        android:paddingTop="@dimen/space_l"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+</RelativeLayout>

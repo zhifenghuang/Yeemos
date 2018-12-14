@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_248_248_248">
+
+    <com.yeemos.app.view.RoundedImageView
+        android:id="@+id/ivAvater"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/tvDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivAvater"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold|italic"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="SUSAN CHAN"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="@color/color_88_89_91"/>
+    <TextView
+        android:id="@+id/tvProfileUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDisplayName"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="sson773"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="@color/color_187_187_187"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvEditName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/color_187_187_187"
+            android:gravity="center"
+            android:text="Edit Name"
+            android:drawableLeft="@drawable/profile_edit_name"/>
+
+        <TextView
+            android:id="@+id/tvBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/color_187_187_187"
+            android:gravity="center"
+            android:text="Block"
+            android:layout_marginTop="4dp"
+            android:drawableLeft="@drawable/profile_block"/>
+
+        <TextView
+            android:id="@+id/tvRemoveFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/color_187_187_187"
+            android:gravity="center"
+            android:text="Remove Friend"
+            android:layout_marginTop="4dp"
+            android:drawableLeft="@drawable/profile_remove"/>
+    </LinearLayout>
+</RelativeLayout>

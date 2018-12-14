@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/popupWindow"
+    android:visibility="gone"
+    android:background="@color/color_45_223_227">
+    <ImageView
+        android:id="@+id/pop_message_pill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/popmessage_pill"/>
+    <ImageView
+        android:id="@+id/popGo"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/popmessage_go"/>
+    <TextView
+        android:id="@+id/pop_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_255_255_255"
+        android:layout_toRightOf="@+id/pop_message_pill"
+        android:textSize="18sp"
+        android:text=" Username sent your a private private"
+        android:layout_toLeftOf="@+id/popGo"
+        android:singleLine="true"/>
+
+</RelativeLayout>

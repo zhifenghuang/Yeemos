@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/round_shape_popupwin">
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/MenuTextSize_17"
+            android:text="此版本更新"/>
+        <TextView
+            android:id="@+id/dialogMessage"
+            android:layout_below="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/MenuTextSize_14"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/oprateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/topLayout"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="9"
+            android:background="@drawable/btn_roundrect_whitebg_redtext"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:textAllCaps="false"
+            android:paddingTop="7dp"
+            android:text="@string/cancel"
+            android:textColor="@color/color_187_187_187"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/viewMid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/okay"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="9"
+            android:background="@drawable/btn_roundrect_redbg_whitetext"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:textAllCaps="false"
+            android:text="Okay"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/oprateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+</RelativeLayout>

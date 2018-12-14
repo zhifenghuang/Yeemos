@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".activity.TestActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Page"
+        android:id="@+id/ttv_tips"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/ttv_tips"
+        android:layout_toLeftOf="@+id/ttv_tips"
+        android:layout_toStartOf="@+id/ttv_tips" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/btn_logout"
+        android:layout_alignTop="@+id/btn_login"
+        android:layout_toRightOf="@+id/ttv_tips"
+        android:layout_toEndOf="@+id/ttv_tips" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendText"
+        android:id="@+id/btn_sendText"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendImage"
+        android:id="@+id/btn_sendImage"
+        android:layout_below="@+id/btn_sendText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btn_sendText"
+        android:layout_alignEnd="@+id/btn_sendText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendUser"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/btn_login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ReceiveUser"
+        android:id="@+id/textView3"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_sendUser"
+        android:text="180"
+        android:layout_above="@+id/textView3"
+        android:layout_alignRight="@+id/btn_sendText"
+        android:layout_alignEnd="@+id/btn_sendText"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_recvUser"
+        android:text="181"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/edit_sendUser"
+        android:layout_alignEnd="@+id/edit_sendUser"
+        android:layout_alignLeft="@+id/edit_sendUser"
+        android:layout_alignStart="@+id/edit_sendUser" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetLastMsg"
+        android:id="@+id/btn_getLastMsg"
+        android:layout_below="@+id/btn_sendImage"
+        android:layout_alignRight="@+id/btn_login"
+        android:layout_alignEnd="@+id/btn_login" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetBeforeMsg"
+        android:id="@+id/btn_getBeforeMsg"
+        android:layout_below="@+id/btn_sendImage"
+        android:layout_toRightOf="@+id/btn_getLastMsg"
+        android:layout_toEndOf="@+id/btn_getLastMsg" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetAfterMsg"
+        android:id="@+id/btn_getAfterMsg"
+        android:layout_below="@+id/btn_getLastMsg"
+        android:layout_alignRight="@+id/btn_getLastMsg"
+        android:layout_alignEnd="@+id/btn_getLastMsg" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetAlloffLineMsg"
+        android:id="@+id/btn_getAllOfflienMsg"
+        android:layout_below="@+id/btn_getBeforeMsg"
+        android:layout_toRightOf="@+id/ttv_tips"
+        android:layout_toEndOf="@+id/ttv_tips" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/edit_recvUser"
+        android:layout_alignLeft="@+id/btn_login"
+        android:layout_alignStart="@+id/btn_login"
+        android:layout_alignRight="@+id/ttv_tips"
+        android:layout_alignEnd="@+id/ttv_tips" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetPeeroffLineMsg"
+        android:id="@+id/btn_getPeerOffline"
+        android:layout_below="@+id/btn_getAfterMsg"
+        android:layout_alignRight="@+id/btn_getBeforeMsg"
+        android:layout_alignEnd="@+id/btn_getBeforeMsg" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetMissMsg"
+        android:id="@+id/btn_getMissMsg"
+        android:layout_below="@+id/btn_getPeerOffline"
+        android:layout_alignLeft="@+id/btn_getPeerOffline"
+        android:layout_alignStart="@+id/btn_getPeerOffline" />
+
+
+</RelativeLayout>

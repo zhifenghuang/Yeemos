@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/userNameIs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_187_187_187"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/peopleSee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_187_187_187"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/displayName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/peopleSee"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/recommendUser"
+        android:layout_below="@+id/ll2"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="7dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:background="@color/color_45_223_227"
+        android:drawableLeft="@drawable/white_star"
+        android:textColor="@color/color_255_255_255"
+        android:text="Recommended User"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_255_255_255">
+
+
+    <com.yeemos.app.view.CustomViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <RelativeLayout
+        android:id="@+id/rlTourial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/tourialFlipView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/tourialViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.view.ViewPager>
+
+
+            <ImageButton
+                android:id="@+id/btnClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="7dp"
+                android:background="@null"
+                android:src="@drawable/edit_close" />
+
+            <com.yeemos.app.view.PagerDotView
+                android:id="@+id/pagerDotView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="190dp"
+                android:layout_marginTop="4dp"
+                app:otherPageDotColor="@color/half_half_white"
+                app:selectedPageDotColor="@color/color_255_255_255"
+                app:totalPage="3" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/tourialView1"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tourial_round_rect_6_bg2"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tvLine1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cmr_txt_selectemotion"
+                    android:textColor="@android:color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tvLine2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cmr_txt_taptotakephoto"
+                    android:textColor="@android:color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tvLine3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cmr_txt_taptotakephoto"
+                    android:textColor="@android:color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <com.yeemos.app.view.TriangleView
+                android:id="@+id/triangleView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll"
+                android:layout_centerHorizontal="true"
+                app:triangleColor="@color/half_transparent"
+                app:triangleHeadDir="3" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourialView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tourial_round_rect_6_bg1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/cmr_txt_selectphotoorvideo"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+            <com.yeemos.app.view.TriangleView
+                android:id="@+id/triangleView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv2"
+                app:triangleColor="@color/color_160_255_143_51"
+                app:triangleHeadDir="3" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/tourialView3"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:background="@drawable/tourial_round_rect_6_bg1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/cmr_txt_chattofriend"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+            <com.yeemos.app.view.TriangleView
+                android:id="@+id/triangleView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv3"
+                app:triangleColor="@color/color_160_255_143_51"
+                app:triangleHeadDir="2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourialView4"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tourial_round_rect_6_bg1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/hm_txt_postsfromothers"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+            <com.yeemos.app.view.TriangleView
+                android:id="@+id/triangleView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv4"
+                android:layout_centerHorizontal="true"
+                app:triangleColor="@color/color_160_255_143_51"
+                app:triangleHeadDir="3" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourialView5"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tourial_round_rect_6_bg1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/hm_txt_hottopics"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourialView6"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tourial_round_rect_6_bg1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/hm_txt_postsfromyourfollowings"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourialView7"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone">
+
+            <com.yeemos.app.view.TriangleView
+                android:id="@+id/triangleView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                app:triangleColor="@color/color_160_255_143_51"
+                app:triangleHeadDir="1" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_toRightOf="@id/triangleView7"
+                android:background="@drawable/tourial_round_rect_6_bg1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/hm_txt_foreverpost"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourialView8"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tourial_round_rect_6_bg2"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/chtlstandcntcts_txt_swipeleftortaptochat"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourialView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:background="@drawable/tourial_round_rect_6_bg1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/chtlstandcntcts_txt_postlast6hours"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+            <com.yeemos.app.view.TriangleView
+                android:id="@+id/triangleView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv9"
+                app:triangleColor="@color/color_160_255_143_51"
+                app:triangleHeadDir="2" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

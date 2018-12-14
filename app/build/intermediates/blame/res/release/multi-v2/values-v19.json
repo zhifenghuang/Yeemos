@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/gigabud/AndroidStudioProjects/Yeemos/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/home/gigabud/AndroidStudioProjects/Yeemos/app/src/main/res/values-v19/bool.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/reSetting"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/color_45_223_227"
+        android:paddingLeft="7dp">
+
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/white_back_no_shadow"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Linked Account"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/MenuTextSize_20"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlLinkedFb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp">
+
+        <ImageButton
+            android:id="@+id/btnLinkedFb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:background="@null"
+            android:src="@drawable/btn_facebook_link"/>
+
+        <TextView
+            android:id="@+id/tvFBUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="Username"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/btnLinkedFb"
+            android:layout_toRightOf="@id/btnLinkedFb"
+            android:layout_marginLeft="9dp"
+            android:alpha="0.3"
+            android:background="@color/color_170_170_170"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlLinkedInsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="26dp">
+
+        <ImageButton
+            android:id="@+id/btnLinkedInsta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:background="@null"
+            android:src="@drawable/btn_insta_link"/>
+
+        <TextView
+            android:id="@+id/tvInstaUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="Username"
+            android:textColor="@color/color_88_89_91"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/btnLinkedInsta"
+            android:layout_toRightOf="@id/btnLinkedInsta"
+            android:layout_marginLeft="9dp"
+            android:alpha="0.3"
+            android:background="@color/color_170_170_170"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+# Referenced at /home/gigabud/AndroidStudioProjects/Yeemos/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:60
+-keep class com.yeemos.app.BaseApplication { <init>(...); }

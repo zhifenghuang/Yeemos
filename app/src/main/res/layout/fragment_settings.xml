@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/reSetting"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/color_45_223_227"
+        android:paddingLeft="7dp">
+
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/white_back_no_shadow" />
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Settings"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/MenuTextSize_20"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/reSetting">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+            <TextView
+                android:id="@+id/tvAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="11dp"
+                android:text="Account"
+                android:textColor="@color/color_45_223_227"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:drawableRight="@drawable/grey_arrow_next"
+                android:gravity="center_vertical"
+                android:text="Edit Profile"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvChangePsw"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:drawableRight="@drawable/grey_arrow_next"
+                android:gravity="center_vertical"
+                android:text="Change Password"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+
+            <TextView
+                android:id="@+id/tvLinkedAccount"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:drawableRight="@drawable/grey_arrow_next"
+                android:gravity="center_vertical"
+                android:text="Linked Account"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvNotificationSetting"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:drawableRight="@drawable/grey_arrow_next"
+                android:gravity="center_vertical"
+                android:text="Notification Setting"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvBlackList"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:drawableRight="@drawable/grey_arrow_next"
+                android:gravity="center_vertical"
+                android:text="Black List"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFunction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="11dp"
+                android:paddingTop="26dp"
+                android:text="Account"
+                android:textColor="@color/color_45_223_227"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvNotificationSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Notification Sound"
+                    android:textColor="@color/color_88_89_91"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.yeemos.app.view.CustomToggleImageButton
+                    android:id="@+id/btnNotificationSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:src="@drawable/turn_off_btn" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:visibility="gone"
+                android:background="@color/color_170_170_170" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp">
+
+                    <TextView
+                        android:id="@+id/tvPrivateAccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Private Account"
+                        android:textColor="@color/color_88_89_91"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.yeemos.app.view.CustomToggleImageButton
+                        android:id="@+id/btnPrivateAccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:src="@drawable/turn_off_btn" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvPrivateAccountDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="11dp"
+                    android:text="When your account is private, only people you approvate can see your post on Yeemos. Your existing followers won't be affected."
+                    android:textColor="@color/color_187_187_187"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp">
+
+                    <TextView
+                        android:id="@+id/tvPrivateFollowList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Private Follow List"
+                        android:textColor="@color/color_88_89_91"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.yeemos.app.view.CustomToggleImageButton
+                        android:id="@+id/btnPrivateFollowList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:src="@drawable/turn_off_btn" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvPrivateFollowListDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="11dp"
+                    android:text="When your follow list is private, other people can't see your follower and following list."
+                    android:textColor="@color/color_187_187_187"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp">
+
+                <TextView
+                    android:id="@+id/tvSaveOriginalPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Save Original Photo"
+                    android:textColor="@color/color_88_89_91"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.yeemos.app.view.CustomToggleImageButton
+                    android:id="@+id/btnSaveOriginalPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:src="@drawable/turn_off_btn" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvYeemos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="11dp"
+                android:paddingTop="26dp"
+                android:text="Yeemos"
+                android:textColor="@color/color_45_223_227"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:text="About Us"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+            <TextView
+                android:id="@+id/tvContactUs"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:text="Contact Us"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvHelp"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:text="Help"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvPrivacyPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:text="Privacy Policy"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvTermsOfService"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:text="Terms of Service"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvCommunity"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvClearCache"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.3"
+                android:background="@color/color_170_170_170" />
+
+            <TextView
+                android:id="@+id/tvLogout"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                android:text="Logout"
+                android:textColor="@color/color_88_89_91"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
